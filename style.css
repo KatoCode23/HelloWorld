@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+body{
+	margin: 0px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: black;
+}
+
+.black-bar{
+	background-color: black;
+	color: white;
+}
+.black-bar span{
+	margin-right: 10px;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.silver-bar{
+	background-color: silver;
+}
+.silver-bar span{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+.background-image{
+	background-color: red;
+	height: 350px;
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+.footer{
+	background-color: #2B2A2A;
+	color: white;
+
+	padding-left: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
