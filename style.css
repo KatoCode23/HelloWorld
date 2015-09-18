@@ -24,6 +24,12 @@ body{
 	padding-bottom: 10px;
 	display: inline-block;
 }
+button{
+	margin-right: 0px;
+	background-color: red;
+	font-size: 20px;
+
+}
 .background-image{
 	background-color: red;
 	height: 500px;
