@@ -58,6 +58,7 @@ button{
 	width: 100%;
 	background-position-y: 20px;
 	text-shadow: 0px 0px 30px #00F4FF;
+	background-position-x: center; 
 }
 .splash-container{
 	display: table-cell;
