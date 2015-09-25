@@ -93,12 +93,12 @@ section.secondary{
 	background-color: white;
 	color: black;	
 }
-section.trilogy{
-	background-color: red;
-	color: black;
+section.trilogy a{color: #00F4FF;
 }
 
-
+section.trilogy{
+	background-color: black;
+}
 
 
 @media (min-width: 0px)
