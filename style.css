@@ -82,7 +82,10 @@ a{
 	text-decoration: none;
 }
 section.primary, section.secondary, section.trilogy{
-	padding: 50px;
+	padding-top:  15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
 	text-align: center;
 }
 section.primary{
@@ -95,10 +98,13 @@ section.secondary{
 }
 section.trilogy a{color: #00F4FF;
 }
+section.trilogy h1{color: #00F4FF;
+}
 
 section.trilogy{
 	background-color: black;
 }
+
 
 
 @media (min-width: 0px)
