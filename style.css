@@ -69,14 +69,7 @@ button{
     vertical-align: middle;
     color: white; 
 }
-.footer{
-	background-color: #2B2A2A;
-	color: white;
 
-	padding-left: 100px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 ul{
 	margin: 0px;
 	padding: 0px;
@@ -88,7 +81,7 @@ a{
 	color: white;
 	text-decoration: none;
 }
-section.primary, section.secondary{
+section.primary, section.secondary, section.trilogy{
 	padding: 50px;
 	text-align: center;
 }
@@ -98,9 +91,12 @@ section.primary{
 }
 section.secondary{
 	background-color: white;
+	color: black;	
+}
+section.trilogy{
+	background-color: red;
 	color: black;
 }
-
 
 
 
