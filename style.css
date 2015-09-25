@@ -18,13 +18,17 @@ header{
 .black-bar{
 	background-color: black;
 	    color: #00F4FF;
+	    
 	
 	
 }
 .black-bar span{
 	margin-right: 10px;
-	font-size: 10px;
+	font-size: 20px;
 	margin-left: 10px;
+	padding: 10px;
+    display: inline-block;
+    font-size: 14px;
 
 }
 .silver-bar{
@@ -63,6 +67,7 @@ button{
 .splash-container{
 	display: table-cell;
     vertical-align: middle;
+    color: white; 
 }
 .footer{
 	background-color: #2B2A2A;
@@ -82,4 +87,27 @@ li{
 a{
 	color: white;
 	text-decoration: none;
+}
+section.primary, section.secondary{
+	padding: 50px;
+	text-align: center;
+}
+section.primary{
+	background-color: #01848A;
+	color: white;
+}
+section.secondary{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+@media (min-width: 0px)
+ and (max-width: 680px) {
+	.background-image{
+		font-size: 70px;
+	}
 }
