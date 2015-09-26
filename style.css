@@ -39,6 +39,7 @@ header{
     font-size: 14px;
     font-family: ailerons;
     color: #00F4FF;
+    border: none;
 }
 .silver-bar{
 	background-color: silver;
