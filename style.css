@@ -22,14 +22,22 @@ header{
 	
 	
 }
-.black-bar span{
-	margin-right: 10px;
-	font-size: 20px;
-	margin-left: 10px;
+.black-bar button{
 	padding: 10px;
     display: inline-block;
     font-size: 14px;
-
+    background-color: #07F4FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: ailerons;
 }
 .silver-bar{
 	background-color: silver;
@@ -42,13 +50,7 @@ header{
 	padding-bottom: 10px;
 	display: inline-block;
 }
-button{
-	margin-right: 0px;
-	background-color: red;
-	font-size: 20px;
-	color: white;
 
-}
 .background-image{
 	background-color: black;
 	height: 100%;
