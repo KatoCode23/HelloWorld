@@ -41,6 +41,15 @@ header{
     color: #00F4FF;
     border: none;
 }
+select{
+	background-color: #00F4FF;
+	border: none;
+	font-family: ailerons;
+	padding-top: 5px;
+	padding-bottom 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
 .silver-bar{
 	background-color: silver;
 	
@@ -113,6 +122,7 @@ section.quad{
 	background-color: #01848A;
 	color: white;
 }
+
 
 
 
