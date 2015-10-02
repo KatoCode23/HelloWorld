@@ -40,6 +40,13 @@ header{
     font-family: ailerons;
     color: #00F4FF;
     border: none;
+    transition: all .3s;
+
+}
+.black-bar button:hover{
+	color: red;
+	font-size: 16px;
+	
 }
 select{
 	background-color: #00F4FF;
@@ -76,6 +83,10 @@ select{
 	background-position-y: 20px;
 	text-shadow: 0px 0px 30px #00F4FF;
 	background-position-x: center; 
+}
+.background-image:hover{
+	text-shadow: 0px 0px 30px red;
+	transition: text-shadow 3s;
 }
 .splash-container{
 	display: table-cell;
