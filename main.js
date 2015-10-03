@@ -16,3 +16,12 @@
 	console.log (element);
 
 	}
+	KatoFavCardio= ["Boxing", "Running", "Agilities"];
+	["Boxing", "Running", "Agilities"]
+	console.log (KatoFavCardio); 
+	VM4166:2 ["Boxing", "Running", "Agilities"]
+	undefined
+	KatoFavChest= ["Pushups", "Dips", "TrxPushups", "TrxFlies", "PullUps", "BodyWeight", 8, 10, 12, 15, 20, 30, 40 ,50 ,60, 70, 80, 90, 100,200,300,400,500,600,700,800,900,1000];
+	["Pushups", "Dips", "TrxPushups", "TrxFlies", "PullUps", "BodyWeight", 8, 10, 12, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+	console.log (KatoFavChest);
+	VM4287:2 ["Pushups", "Dips", "TrxPushups", "TrxFlies", "PullUps", "BodyWeight", 8, 10, 12, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
