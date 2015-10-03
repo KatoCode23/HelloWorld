@@ -138,6 +138,13 @@ section.primary:hover{
 	transition: background-color 3s;
 }
 
+section.close .open-text{
+	display: none;
+
+}
+section.open .open-text{
+	display: block;
+}
 
 
 
