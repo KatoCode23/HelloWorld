@@ -135,6 +135,7 @@ section.quad{
 }
 section.primary:hover{
 	background-color: black;
+	transition: background-color 3s;
 }
 
 
