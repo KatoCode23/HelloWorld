@@ -133,7 +133,9 @@ section.quad{
 	background-color: #01848A;
 	color: white;
 }
-
+section.primary:hover{
+	background-color: black;
+}
 
 
 
