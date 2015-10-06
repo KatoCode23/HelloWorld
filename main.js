@@ -31,5 +31,11 @@
 	console.log (KatoFavAbs);
 
 	var Kato= {};
-	console.log ("Kato");
+	console.log (Kato);
+	Kato.firstName= "Kalen";
+	Kato.lastName= "Norton";
+	Kato.middleName= "Imani";
+	console.log (Kato);
 	
+
+
