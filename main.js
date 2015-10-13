@@ -75,4 +75,10 @@
 	var levelTen= 10;
 	console.log (levelTen);
 
+	var score= 100;
+	console.log (score);
+
+	if (score >= 100);
+	console.log ("CongratulationsYouCanMoveOnToTheNextLevel");
+
 
