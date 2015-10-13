@@ -36,6 +36,43 @@
 	Kato.lastName= "Norton";
 	Kato.middleName= "Imani";
 	console.log (Kato);
+
+	var KatoPushUp= {};
+
+	KatoPushUp.One = "Diamond";
+	KatoPushUp.Two = "Wide";
+	KatoPushUp.Three = "Regular";
+	KatoPushUp.Four = "OneArm";
+	console.log (KatoPushUp);
+
+	var levelOne= 1;
+	console.log (levelOne);
+
+	var levelTwo= 2;
+	console.log (levelTwo);
+
+	var levelThree= 3;
+	console.log (levelThree);
+
+	var levelFour= 4;
+	console.log (levelFour);
+
+	var levelFive= 5;
+	console.log (levelFive);
+
+	var levelSix= 6;
+	console.log (levelSix);
+
+	var levelSeven= 7;
+	console.log (levelSeven);
+
+	var levelEight= 8;
+	console.log (levelEight);
+
+	var levelNine= 9;
+	console.log (levelNine);
 	
+	var levelTen= 10;
+	console.log (levelTen);
 
 
