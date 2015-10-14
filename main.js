@@ -56,7 +56,15 @@
 	KatoBench.Seven= "BarbellWideGripBench";
 	KatoBench.Eight= "BarbellCloseGripBench";
 	console.log (KatoBench);
-	
+
+	var KatoMuscleEndurance= 12;
+	console.log (KatoMuscleEndurance);
+	var KatoMuscleBuilding =10;
+	console.log (KatoMuscleBuilding);
+	var KatoStrength= 5;
+	console.log (KatoStrength);
+	var KatoPower= 8;
+	console.log (KatoPower);
 
 	var levelOne= 1;
 	console.log (levelOne);
