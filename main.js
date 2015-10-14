@@ -45,6 +45,19 @@
 	KatoPushUp.Four = "OneArm";
 	console.log (KatoPushUp);
 
+	var KatoBench= {};
+
+	KatoBench.One= "FlatBench";
+	KatoBench.Two= "InclineBench";
+	KatoBench.Three= "DeclineBench";
+	KatoBench.Four= "DumbBellFlatBench";
+	KatoBench.Five= "DumbBellInclineBench";
+	KatoBench.Six= "DumbBellDeclineBench";
+	KatoBench.Seven= "BarbellWideGripBench";
+	KatoBench.Eight= "BarbellCloseGripBench";
+	console.log (KatoBench);
+	
+
 	var levelOne= 1;
 	console.log (levelOne);
 
@@ -80,7 +93,7 @@
 
 	if (score >= 100)
 	{console.log ("CongratulationsYouCanMoveOnToTheNextLevel");}
-	else{
+		else{
 		console.log ("SorryYouAreNotReady");
 	}
 	
