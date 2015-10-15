@@ -96,7 +96,7 @@
 	var levelTen= 10;
 	console.log (levelTen);
 
-	var score= 90;
+	var score= 100;
 	console.log (score);
 
 	if (score >= 100)
@@ -105,9 +105,13 @@
 		console.log ("SorryYouAreNotReady");
 	}
 	
-	
-	
-	
+	var startX= 10;
+		console.log (startX);
+		for (var i = 10; i <1001; i++) 
+		{
+			console.log ("i:",i);
 
 
-	
+
+		}
+		
