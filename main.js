@@ -107,9 +107,10 @@
 	
 	var startX= 10;
 		console.log (startX);
-		for (var i = 10; i <1001; i++) 
+		for (var i = 10; i <109; i++) 
 		{
-			console.log ("i:",i);
+			startX=startX+10;
+			console.log (startX);
 
 
 
