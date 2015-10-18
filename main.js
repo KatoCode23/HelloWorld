@@ -67,6 +67,55 @@
 	KatoCardio.Six= "HotYoga";
 	console.log (KatoCardio);
 
+	var KatoStretch= {};
+
+	KatoStretch.One= "HipRotationRight";
+	KatoStretch.Two= "HipRotationLeft";
+	KatoStretch.Three= "TwistMidSection";
+	KatoStretch.Four= "TwistUpperSection";
+	KatoStretch.Five= "FeetTogetherHamstring";
+	KatoStretch.Six= "TapOverTapDown";
+	KatoStretch.Seven= "SpreadLegHamstringRight";
+	KatoStretch.Eight= "SpreadLegHamstringLeft";
+	KatoStretch.Nine= "SpreadLegHamstringMiddle";
+	KatoStretch.Ten= "OneKneeQuadRight";
+	KatoStretch.Eleven= "OneKneeQuadLeft";
+	KatoStretch.Twelve= "OneKneeHamstringRight";
+	KatoStretch.Thirteen= "OneKneeHamstringLeft";
+	KatoStretch.Fourteen= "Butterfly";
+	KatoStretch.Fifteen= "Hamsrting1Right";
+	KatoStretch.Sixteen= "Hamsrting1Left";
+	KatoStretch.Seventeen= "Quad1Right";
+	KatoStretch.Eighteen= "Quad1Left";
+	KatoStretch.Nineteen= "TwoKneeTwist";
+	KatoStretch.Twenty= "Sphinx";
+	KatoStretch.Twentyone= "UpwardFacingDog";
+	KatoStretch.Twentytwo= "Pigeon";
+	KatoStretch.Twentythree= "ThreadTheNeedle";
+	KatoStretch.Twentyfour= "LegsUpOnTheWall";
+	KatoStretch.Twentyfive= "RightArmAcross";
+	KatoStretch.Twentysix= "LeftArmAcross";
+	KatoStretch.Twentyseven= "RightArmBack";
+	KatoStretch.Twentyeight= "LeftArmBack";
+	KatoStretch.Twentynine= "ForeArmAStretch";
+	KatoStretch.Thirty= "RotatorCuffJoint1";
+	KatoStretch.Thirtyone= "RotatorCuffJoint2";
+	KatoStretch.Thirtytwo= "RotatorCuffJoint3";
+	KatoStretch.Thirtythree= "ArmCirclesForwardSmall";
+	KatoStretch.Thirtyfour= "ArmCirclesForwardMedium";
+	KatoStretch.Thirtyfive= "ArmCirclesForwardBig";
+	KatoStretch.Thirtysix= "ArmCirclesBackwardSmall";
+	KatoStretch.Thirtyseven= "ArmCirclesBackwardMedium";
+	KatoStretch.Thirtyeight= "ArmCirclesBackwardBig";
+	KatoStretch.Thirtynine= "BackSlaps";
+	KatoStretch.Forty= "PullHeadRight";
+	KatoStretch.Fortyone= "PullHeadLeft";
+	KatoStretch.Fortytwo= "RotateNeckRight";
+	KatoStretch.Fortythree= "RotateNeckLeft";
+	KatoStretch.Fortyfour= "JumpingJacks20";
+	console.log (KatoStretch);
+	
+
 	var KatoMuscleEndurance= 12;
 	console.log (KatoMuscleEndurance);
 	var KatoMuscleBuilding =10;
