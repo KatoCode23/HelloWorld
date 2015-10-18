@@ -57,6 +57,16 @@
 	KatoBench.Eight= "BarbellCloseGripBench";
 	console.log (KatoBench);
 
+	var KatoCardio= {};
+
+	KatoCardio.One= "Boxing";
+	KatoCardio.Two= "Basketball";
+	KatoCardio.Three= "Sprints";
+	KatoCardio.Four= "Jogging";
+	KatoCardio.Five= "Aerobics";
+	KatoCardio.Six= "HotYoga";
+	console.log (KatoCardio);
+
 	var KatoMuscleEndurance= 12;
 	console.log (KatoMuscleEndurance);
 	var KatoMuscleBuilding =10;
@@ -106,13 +116,10 @@
 	}
 	
 	var startX= 10;
-		console.log (startX);
+	console.log (startX);
 		for (var i = 10; i <109; i++) 
 		{
 			startX=startX+10;
 			console.log (startX);
-
-
-
 		}
 		
