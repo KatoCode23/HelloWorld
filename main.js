@@ -1,129 +1,108 @@
 	console.log("Hello From External File")
-	var MyFirstName= "Kalen";
-	console.log (MyFirstName);
-	var MyLastName= "Norton";
-	console.log (MyLastName);
-	var MyMiddleName= "Imani";
-	console.log (MyMiddleName);
-	var Age= 33;
-	console.log (33);
-	MyFavThings= ["Baseball", 23, "Protein", "Family", "People"];
-	console.log (MyFavThings);
-	console.log (MyFavThings.length);
+	
 	myClickFunction=function(){
 	var element=document.getElementsByClassName("primary close");
 	element[0].className="primary open";
 	console.log (element);
 
 	}
-	KatoFavCardio= ["Boxing", "Running", "Agilities"];
-	["Boxing", "Running", "Agilities"]
-	console.log (KatoFavCardio); 
-	VM4166:2 ["Boxing", "Running", "Agilities"]
-	undefined
 	
-	KatoFavChest= ["Pushups", "Dips", "TrxPushups", "TrxFlies", "PullUps", "BodyWeight", 8, 10, 12, 15, 20, 30, 40 ,50 ,60, 70, 80, 90, 100,200,300,400,500,600,700,800,900,1000];
-	["Pushups", "Dips", "TrxPushups", "TrxFlies", "PullUps", "BodyWeight", 8, 10, 12, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-	console.log (KatoFavChest);
-	VM4287:2 ["Pushups", "Dips", "TrxPushups", "TrxFlies", "PullUps", "BodyWeight", 8, 10, 12, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+
+	var kato= {};
+	console.log (kato);
+	kato.firstName= "Kalen";
+	kato.lastName= "Norton";
+	kato.middleName= "Imani";
+	console.log (kato);
+
+	var katoPushUp= ["Diamond", "Wide", "Regular", "OneArm"];
+		console.log (katoPushUp);
+
+	var diamond={};
+	console.log(diamond);
+
+	var wide={};
+	console.log(wide);
+
+	var regular={};
+	console.log(regular);
+
+	var oneArm={};
+	console.log(oneArm);
+ 	
+
+	var katoBench= {};
+
+	katoBench.One= "FlatBench";
+	katoBench.Two= "InclineBench";
+	katoBench.Three= "DeclineBench";
+	katoBench.Four= "DumbBellFlatBench";
+	katoBench.Five= "DumbBellInclineBench";
+	katoBench.Six= "DumbBellDeclineBench";
+	katoBench.Seven= "BarbellWideGripBench";
+	katoBench.Eight= "BarbellCloseGripBench";
+	console.log (katoBench);
+
+	var katoCardio= {};
+
+	katoCardio.One= "Boxing";
+	katoCardio.Two= "Basketball";
+	katoCardio.Three= "Sprints";
+	katoCardio.Four= "Jogging";
+	katoCardio.Five= "Aerobics";
+	katoCardio.Six= "HotYoga";
+	console.log (katoCardio);
+
+	var katoStretch= {};
+
+	katoStretch.One= "HipRotationRight";
+	katoStretch.Two= "HipRotationLeft";
+	katoStretch.Three= "TwistMidSection";
+	katoStretch.Four= "TwistUpperSection";
+	katoStretch.Five= "FeetTogetherHamstring";
+	katoStretch.Six= "TapOverTapDown";
+	katoStretch.Seven= "SpreadLegHamstringRight";
+	katoStretch.Eight= "SpreadLegHamstringLeft";
+	katoStretch.Nine= "SpreadLegHamstringMiddle";
+	katoStretch.Ten= "OneKneeQuadRight";
+	katoStretch.Eleven= "OneKneeQuadLeft";
+	katoStretch.Twelve= "OneKneeHamstringRight";
+	katoStretch.Thirteen= "OneKneeHamstringLeft";
+	katoStretch.Fourteen= "Butterfly";
+	katoStretch.Fifteen= "Hamsrting1Right";
+	katoStretch.Sixteen= "Hamsrting1Left";
+	katoStretch.Seventeen= "Quad1Right";
+	katoStretch.Eighteen= "Quad1Left";
+	katoStretch.Nineteen= "TwoKneeTwist";
+	katoStretch.Twenty= "Sphinx";
+	katoStretch.Twentyone= "UpwardFacingDog";
+	katoStretch.Twentytwo= "Pigeon";
+	katoStretch.Twentythree= "ThreadTheNeedle";
+	katoStretch.Twentyfour= "LegsUpOnTheWall";
+	katoStretch.Twentyfive= "RightArmAcross";
+	katoStretch.Twentysix= "LeftArmAcross";
+	katoStretch.Twentyseven= "RightArmBack";
+	katoStretch.Twentyeight= "LeftArmBack";
+	katoStretch.Twentynine= "ForeArmAStretch";
+	katoStretch.Thirty= "RotatorCuffJoint1";
+	katoStretch.Thirtyone= "RotatorCuffJoint2";
+	katoStretch.Thirtytwo= "RotatorCuffJoint3";
+	katoStretch.Thirtythree= "ArmCirclesForwardSmall";
+	katoStretch.Thirtyfour= "ArmCirclesForwardMedium";
+	katoStretch.Thirtyfive= "ArmCirclesForwardBig";
+	katoStretch.Thirtysix= "ArmCirclesBackwardSmall";
+	katoStretch.Thirtyseven= "ArmCirclesBackwardMedium";
+	katoStretch.Thirtyeight= "ArmCirclesBackwardBig";
+	katoStretch.Thirtynine= "BackSlaps";
+	katoStretch.Forty= "PullHeadRight";
+	katoStretch.Fortyone= "PullHeadLeft";
+	katoStretch.Fortytwo= "RotateNeckRight";
+	katoStretch.Fortythree= "RotateNeckLeft";
+	katoStretch.Fortyfour= "JumpingJacks20";
+	console.log (katoStretch);
+
+
 	
-	KatoFavAbs= ["Situps", "Crunches", "ReverseCrunches", "SideCrunches", "BicycleCrunches", "FullPlank", "HalfPlank", "SidePlank", "FlatBackJacks", "ScissorKicks", "TapTheEggShell", "StabilityBallCrunches"]
-	console.log (KatoFavAbs);
-
-	var Kato= {};
-	console.log (Kato);
-	Kato.firstName= "Kalen";
-	Kato.lastName= "Norton";
-	Kato.middleName= "Imani";
-	console.log (Kato);
-
-	var KatoPushUp= {};
-
-	KatoPushUp.One = "Diamond";
-	KatoPushUp.Two = "Wide";
-	KatoPushUp.Three = "Regular";
-	KatoPushUp.Four = "OneArm";
-	console.log (KatoPushUp);
-
-	var KatoBench= {};
-
-	KatoBench.One= "FlatBench";
-	KatoBench.Two= "InclineBench";
-	KatoBench.Three= "DeclineBench";
-	KatoBench.Four= "DumbBellFlatBench";
-	KatoBench.Five= "DumbBellInclineBench";
-	KatoBench.Six= "DumbBellDeclineBench";
-	KatoBench.Seven= "BarbellWideGripBench";
-	KatoBench.Eight= "BarbellCloseGripBench";
-	console.log (KatoBench);
-
-	var KatoCardio= {};
-
-	KatoCardio.One= "Boxing";
-	KatoCardio.Two= "Basketball";
-	KatoCardio.Three= "Sprints";
-	KatoCardio.Four= "Jogging";
-	KatoCardio.Five= "Aerobics";
-	KatoCardio.Six= "HotYoga";
-	console.log (KatoCardio);
-
-	var KatoStretch= {};
-
-	KatoStretch.One= "HipRotationRight";
-	KatoStretch.Two= "HipRotationLeft";
-	KatoStretch.Three= "TwistMidSection";
-	KatoStretch.Four= "TwistUpperSection";
-	KatoStretch.Five= "FeetTogetherHamstring";
-	KatoStretch.Six= "TapOverTapDown";
-	KatoStretch.Seven= "SpreadLegHamstringRight";
-	KatoStretch.Eight= "SpreadLegHamstringLeft";
-	KatoStretch.Nine= "SpreadLegHamstringMiddle";
-	KatoStretch.Ten= "OneKneeQuadRight";
-	KatoStretch.Eleven= "OneKneeQuadLeft";
-	KatoStretch.Twelve= "OneKneeHamstringRight";
-	KatoStretch.Thirteen= "OneKneeHamstringLeft";
-	KatoStretch.Fourteen= "Butterfly";
-	KatoStretch.Fifteen= "Hamsrting1Right";
-	KatoStretch.Sixteen= "Hamsrting1Left";
-	KatoStretch.Seventeen= "Quad1Right";
-	KatoStretch.Eighteen= "Quad1Left";
-	KatoStretch.Nineteen= "TwoKneeTwist";
-	KatoStretch.Twenty= "Sphinx";
-	KatoStretch.Twentyone= "UpwardFacingDog";
-	KatoStretch.Twentytwo= "Pigeon";
-	KatoStretch.Twentythree= "ThreadTheNeedle";
-	KatoStretch.Twentyfour= "LegsUpOnTheWall";
-	KatoStretch.Twentyfive= "RightArmAcross";
-	KatoStretch.Twentysix= "LeftArmAcross";
-	KatoStretch.Twentyseven= "RightArmBack";
-	KatoStretch.Twentyeight= "LeftArmBack";
-	KatoStretch.Twentynine= "ForeArmAStretch";
-	KatoStretch.Thirty= "RotatorCuffJoint1";
-	KatoStretch.Thirtyone= "RotatorCuffJoint2";
-	KatoStretch.Thirtytwo= "RotatorCuffJoint3";
-	KatoStretch.Thirtythree= "ArmCirclesForwardSmall";
-	KatoStretch.Thirtyfour= "ArmCirclesForwardMedium";
-	KatoStretch.Thirtyfive= "ArmCirclesForwardBig";
-	KatoStretch.Thirtysix= "ArmCirclesBackwardSmall";
-	KatoStretch.Thirtyseven= "ArmCirclesBackwardMedium";
-	KatoStretch.Thirtyeight= "ArmCirclesBackwardBig";
-	KatoStretch.Thirtynine= "BackSlaps";
-	KatoStretch.Forty= "PullHeadRight";
-	KatoStretch.Fortyone= "PullHeadLeft";
-	KatoStretch.Fortytwo= "RotateNeckRight";
-	KatoStretch.Fortythree= "RotateNeckLeft";
-	KatoStretch.Fortyfour= "JumpingJacks20";
-	console.log (KatoStretch);
-
-
-	var KatoMuscleEndurance= 12;
-	console.log (KatoMuscleEndurance);
-	var KatoMuscleBuilding =10;
-	console.log (KatoMuscleBuilding);
-	var KatoStrength= 5;
-	console.log (KatoStrength);
-	var KatoPower= 8;
-	console.log (KatoPower);
 
 	var levelOne= 1;
 	console.log (levelOne);
@@ -180,6 +159,25 @@
 				$(".pop-up").css("display", "none");
 
 			}
-		}
-
+		}	
+		
 )
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
