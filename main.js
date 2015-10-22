@@ -114,7 +114,7 @@
 	KatoStretch.Fortythree= "RotateNeckLeft";
 	KatoStretch.Fortyfour= "JumpingJacks20";
 	console.log (KatoStretch);
-	
+
 
 	var KatoMuscleEndurance= 12;
 	console.log (KatoMuscleEndurance);
@@ -169,6 +169,17 @@
 		for (var i = 10; i <109; i++) 
 		{
 			startX=startX+10;
-			console.log (startX);
+			//console.log (startX);
 		}
-		
+
+		$(".splash-container").click(function(){
+
+			if($(".pop-up").css("display") === "none" ){
+				$(".pop-up").css("display", "block");
+			}else{
+				$(".pop-up").css("display", "none");
+
+			}
+		}
+
+)
