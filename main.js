@@ -53,15 +53,25 @@
 	console.log (katoBenchPressList);
 
 
-	var katoCardio= {};
+	var katoCardioBoxing= {};
+	console.log (katoCardioBoxing);
 
-	katoCardio.One= "Boxing";
-	katoCardio.Two= "Basketball";
-	katoCardio.Three= "Sprints";
-	katoCardio.Four= "Jogging";
-	katoCardio.Five= "Aerobics";
-	katoCardio.Six= "HotYoga";
-	console.log (katoCardio);
+	var katoCardioJumpRope= {};
+	console.log (katoCardioJumpRope);
+
+	var katoCardioJogging= {};
+	console.log (katoCardioJogging);
+
+	var katoCardioSprinting= {};
+	console.log (katoCardioSprinting);
+
+	var katoCardioHotYoga= {};
+	console.log (katoCardioHotYoga);
+
+	var katoCardioList= ["katoCardioBoxing", "katoCardioJumpRope", "katoCardioJogging", "katoCardioSprinting", "katoCardioHotYoga"];
+	console.log (katoCardioList);
+
+
 
 	var katoStretch= {};
 
