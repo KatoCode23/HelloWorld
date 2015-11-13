@@ -18,30 +18,40 @@
 	var katoPushUp= ["Diamond", "Wide", "Regular", "OneArm"];
 		console.log (katoPushUp);
 
-	var diamond={};
-	console.log(diamond);
+	var diamondPushUp={};
+	console.log(diamondPushUp);
 
-	var wide={};
-	console.log(wide);
+	var widePushUp={};
+	console.log(widePushUp);
 
-	var regular={};
-	console.log(regular);
+	var regularPushUp={};
+	console.log(regularPushUp);
 
-	var oneArm={};
-	console.log(oneArm);
+	var oneArmPushUp={};
+	console.log(oneArmPushUp);
  	
 
-	var katoBench= {};
+	var katoFlatBench= {};
+	console.log (katoFlatBench);
 
-	katoBench.One= "FlatBench";
-	katoBench.Two= "InclineBench";
-	katoBench.Three= "DeclineBench";
-	katoBench.Four= "DumbBellFlatBench";
-	katoBench.Five= "DumbBellInclineBench";
-	katoBench.Six= "DumbBellDeclineBench";
-	katoBench.Seven= "BarbellWideGripBench";
-	katoBench.Eight= "BarbellCloseGripBench";
-	console.log (katoBench);
+	var katoInclineBench= {};
+	console.log (katoInclineBench);
+
+	var katoDeclineBench= {};
+	console.log (katoDeclineBench);
+
+	var katoDumbbellFlatBench= {};
+	console.log (katoDumbbellFlatBench);
+
+	var katoDumbbellInclineBench= {};
+	console.log (katoDumbbellInclineBench);
+
+	var katoDumbbellDeclineBench= {};
+	console.log (katoDumbbellDeclineBench);
+
+	var katoBenchPressList= ["katoFlatBench", "katoInclineBench", "katoDeclineBench", "katoDumbbellFlatBench", "katoDumbbellInclineBench", "katoDumbbellDeclineBench"];
+	console.log (katoBenchPressList);
+
 
 	var katoCardio= {};
 
