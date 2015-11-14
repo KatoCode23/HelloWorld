@@ -107,12 +107,14 @@ select:hover{
     top: 37px;
     display: none;
 
+
 }
 .photo-pop{
 	display: none;
 	position: fixed;
 	height: 50%;
 	top: 450px;
+	right: 618px;
 
 }
 

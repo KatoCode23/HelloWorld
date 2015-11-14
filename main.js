@@ -71,6 +71,20 @@
 	var katoCardioList= ["katoCardioBoxing", "katoCardioJumpRope", "katoCardioJogging", "katoCardioSprinting", "katoCardioHotYoga"];
 	console.log (katoCardioList);
 
+	var katoLegSquat= {};
+	console.log (katoLegSquat);
+
+	var katoLegPress= {};
+	console.log (katoLegPress);
+
+	var katoLegDeadLift= {};
+	console.log (katoLegDeadLift);
+
+	var katoLegStraightLegDeadLift= {};
+	console.log (katoLegStraightLegDeadLift);
+
+	
+
 
 
 	var katoStretch= {};
