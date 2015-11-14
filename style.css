@@ -13,8 +13,19 @@ header{
 	position: fixed;
 	top: 0px;
 	width: 100%;
-
+	z-index: 10;
 }
+
+header a{
+	color: #00F4FF;
+    text-decoration: none;
+    padding: 7px;
+}
+
+header a:hover{
+	color: white;
+}
+
 .pop-up{
     display: none;
     background-color: rgba(0, 244, 255, 0.5);
@@ -31,36 +42,29 @@ header{
 
 .black-bar{
 	background-color: black;
-	    color: #00F4FF;
-	    
-	
-	
+	color: #00F4FF;
 }
-.black-bar button{
-	padding: 10px;
-    display: inline-block;
-    font-size: 14px;
+
+button{
+	outline: none;
+	font-family: 'PT Sans Narrow', sans-serif;
     background-color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-    display: inline-block;
-    font-size: 14px;
-    font-family: ailerons;
     color: #00F4FF;
     border: none;
-    transition: all .3s;
-
+    padding: 4px 13px 3px;
+    border-radius: 0px;
+    transition: all 0.3s;
+    cursor: pointer;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	font-size: 15px;
+	letter-spacing: 2px;
 }
-.black-bar button:hover{
-	color: red;
-	font-size: 16px;
-	
+
+
+button:hover{
+	background-color: white;
+	color: black;
 }
 select{
 	background-color: #00F4FF;
@@ -74,7 +78,74 @@ select{
 select:hover{
 	font-size: 14px; 
 	transition: font-size 14px .3s;
-	
+}
+
+.circle-container{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.circle-container .circle{
+	color: black;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-size: contain;
+    background-position: center;
+    line-height: 120px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+}
+
+.circle .circle-label{
+	color: white;
+	z-index: 1;
+	position: relative;
+	font-size: 15px;
+}
+
+.circle .circle-cover{
+	background-color: rgba(1, 132, 138, 0.55);
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.circle-container .circle-1{
+	background-image: url(assets/img/1.png);
+}
+
+.circle-container .circle-2{
+	background-image: url(assets/img/2.png);
+}
+
+.circle-container .circle-3{
+	background-image: url(assets/img/3.png);
+}
+
+.circle-container .circle-4{
+	background-image: url(assets/img/4.png);
+}
+
+.circle-container .circle-5{
+	background-image: url(assets/img/5.png);
+}
+
+.circle-container .circle-6{
+	background-image: url(assets/img/6.png);
 }
 
 .background-image{
@@ -92,15 +163,22 @@ select:hover{
 	text-shadow: 0px 0px 30px #00F4FF;
 	background-position-x: center; 
 }
-.background-image:hover{
-	text-shadow: 0px 0px 30px red;
-	transition: text-shadow 3s;
-}
 .splash-container{
 	display: table-cell;
     vertical-align: middle;
     color: white; 
 }
+
+.arrow-container{
+	position: absolute;
+	bottom: 8px;
+	left: 0px;
+	font-size: 43px;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
 .pop-up-pic{
 	position: fixed;
     height: 33%;
@@ -128,20 +206,23 @@ li{
 	list-style-type: none;
 }
 a{
-	color: white;
 	text-decoration: none;
+	color: white;
 }
+
+a:hover{
+	color: black;	
+}
+
 section.primary, section.secondary, section.trilogy, section.quad{
-	padding-top:  1px;
-	padding-bottom: 15px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding: 40px;
 	text-align: center;
 }
 
 section.primary{
 	background-color: #01848A;
 	color: white;
+	box-shadow: inset 0px 4px 10px rgb(0, 70, 73);
 }
 section.secondary{
 	background-color: white;
@@ -161,39 +242,28 @@ section.quad{
 	background-color: #01848A;
 	color: white;
 }
-section.primary:hover{
-	background-color: black;
-	transition: background-color 2s;
-}
-section.primary button{
-	font-family: ailerons;
-	background-color: #F5006B;
-	border: none;
-	font-size: 20px;
-	padding-top: 0px;
-    padding-bottom: 3px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
-section.quad:hover{
-	background-color: black;
-	transition: background-color 2s;
-}
-
-section.close .open-text{
+.bio-text.hide{
 	display: none;
-
 }
-section.open .open-text{
+
+.bio-text.show{
 	display: block;
 }
-
-
 
 @media (min-width: 0px)
  and (max-width: 680px) {
 	.background-image{
 		font-size: 70px;
+	}
+	
+	.circle-container .circle{
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+	}
+
+	.circle .circle-label{
+		font-size: 12px;
 	}
 }
