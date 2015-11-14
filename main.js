@@ -192,6 +192,16 @@
 
 	)	
 
+			$(".splash-container").click(function(){
+			if($(".photo-pop").css("display") === "none"){
+				$(".photo-pop").css("display", "block");
+			}else{
+				$(".photo-pop").css("display", "none");
+			}
+		}
+
+	)
+
 
 		
 			
