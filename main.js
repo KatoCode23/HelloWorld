@@ -182,6 +182,16 @@
 		}	
 		
 )
+		$(".splash-container").click(function(){
+			if($(".pop-up-pic").css("display") === "none"){
+				$(".pop-up-pic").css("display", "block");
+			}else{
+				$(".pop-up-pic").css("display", "none");
+			}
+		}
+
+	)	
+
 
 		
 			

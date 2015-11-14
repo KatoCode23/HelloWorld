@@ -101,6 +101,12 @@ select:hover{
     vertical-align: middle;
     color: white; 
 }
+.pop-up-pic{
+	position: fixed;
+    height: 33%;
+    top: 37px;
+    display: none;
+}
 
 
 
