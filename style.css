@@ -196,7 +196,15 @@ select:hover{
 
 }
 
-
+.logo{
+	color: white;
+	text-shadow: 1px 0px 3px #00F4FF;
+    font-size: 20px;
+    font-family: ailerons;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
 
 ul{
 	margin: 0px;
