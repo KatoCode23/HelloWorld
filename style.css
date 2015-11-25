@@ -349,7 +349,7 @@ section.quad{
 
 @media (min-width: 0px)
  and (max-width: 680px) {
-	.background-image{
+	.background-image-generic{
 		font-size: 70px;
 	}
 	
