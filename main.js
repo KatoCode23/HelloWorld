@@ -1,16 +1,14 @@
-	console.log("Hello From External File")
+$('.katopic').click(function(event){
 
-	$('.bio-button').click(function(){
+	console.log('YOU SIR JUST CLICKED ', event);
+	$('.full-size-image').css('display', 'block');
 
-		if($('.bio-text').hasClass("hide")){
-			
-			$('.bio-text').removeClass("hide");
-			$('.bio-text').addClass('show');
+	var image = $(event.target).css('background-image');
+	$('.full-size-image').css('display', 'block');
+	$('.full-size-image').css('background-image', image);
+});
 
-		}else if($('.bio-text').hasClass("show")){
 
-			$('.bio-text').removeClass("show");
-			$('.bio-text').addClass('hide');
-
-		}
-	});
+$('.close-button').click(function(event){
+	$('.full-size-image').css('display', 'none');
+});
