@@ -27,6 +27,10 @@ $('.bio-button').click(function(){
 	}
 });
 
-$('.gallery-button').click(function(){
-	console.log('kato just clicked me!!!');
+$('#next-button').click(function(){
+	console.log('kato just clicked next!!!');
+})
+
+$('#prev-button').click(function(){
+	console.log('kato just clicked prev!!!');
 })
