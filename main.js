@@ -26,3 +26,7 @@ $('.bio-button').click(function(){
 
 	}
 });
+
+$('.gallery-button').click(function(){
+	console.log('kato just clicked me!!!');
+})
