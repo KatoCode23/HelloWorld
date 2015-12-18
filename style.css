@@ -375,6 +375,54 @@ section .fa{
 	background-image: url(assets/img/modeling/10.jpg);
 }
 
+
+.picture-container .katopic-1{
+	background-image: url(assets/img/modeling/1.jpg);
+}
+
+.picture-container .katopic-2{
+	background-image: url(assets/img/modeling/2.jpg);
+}
+
+.picture-container .katopic-3{
+	background-image: url(assets/img/modeling/3.jpg);
+}
+
+.picture-container .katopic-4{
+	background-image: url(assets/img/modeling/4.jpg);
+}
+
+.picture-container .katopic-5{
+	background-image: url(assets/img/modeling/5.jpg);
+}
+
+.picture-container .katopic-6{
+	background-image: url(assets/img/modeling/6.jpg);
+}
+
+.picture-container .katopic-7{
+	background-image: url(assets/img/modeling/7.jpg);
+}
+
+.picture-container .katopic-8{
+	background-image: url(assets/img/modeling/8.jpg);
+}
+
+.picture-container .katopic-9{
+	background-image: url(assets/img/modeling/9.jpg);
+}
+
+.picture-container .katopic-10{
+	background-image: url(assets/img/modeling/10.jpg);
+}
+
+.picture-container .katopic-9{
+	background-image: url(assets/img/modeling/9.jpg);
+}
+
+.picture-container .katopic-23{
+	background-image: url(assets/img/modeling/23.jpg);
+}
 .bio-text.hide{
 	display: none;
 }
