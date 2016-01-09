@@ -7,26 +7,21 @@ for (var i=1; i <= numberOfImages; i++){
 }
 
 openImage= function(id){
-	console.log('I was asked to open'+ id);
-	$('.full-size-image').css('display', 'block');
+	console.log('I was asked to open '+ id);
+	console.log("I am about to open ", imagePath);
 
-	
-	$('.full-size-image').css('display', 'block');
-	$('.full-size-image').css('background-image', image);
+	var imagePath = 'url(assets/img/modeling/'+id+'.jpg)';
 
+	$('.full-size-image').css('background-image', imagePath);
+	$('.full-size-image').css('display', 'block');
 	$('.gallery-button').addClass('turned-on');
-
-}	
-
-
+};
 
 $('.katopic').click(function(event){
 	console.log('YOU SIR JUST CLICKED ', event);
-	currentImage= event.currentTarget.id; 
+	currentImage= event.currentTarget.id;
 	openImage(currentImage);
-	
 });
-
 
 
 $('.close-button').click(function(event){
@@ -51,8 +46,12 @@ $('.bio-button').click(function(){
 
 $('#next-button').click(function(){
 	console.log('kato just clicked next!!!');
+	currentImage = parseInt(currentImage) + 1;
+	openImage(currentImage);
 })
 
 $('#prev-button').click(function(){
 	console.log('kato just clicked prev!!!');
+	currentImage = parseInt(currentImage) - 1;
+	openImage(currentImage);
 })
