@@ -37,10 +37,7 @@ header a:hover{
 	background: black;
 	position: fixed;
 	z-index: 100;
-	display: inline-block;
-	height: 20px;
 	color: #00F4FF;
-	font-size: 20px;
 	padding-bottom: 10px;
 	padding-top: 0px;
 	padding-right: 5px;
@@ -49,12 +46,17 @@ header a:hover{
 	top: 50%;
 	font-family: ailerons;
 	margin: 0px;
-	border-radius: 10px;
 	display: none;
+	padding: 7px 16px;
+	font-size: 30px !important;
 
 	-webkit-transition: background-color .5s, color .5s;
 	-o-transition: background-color 	 .5s, color .5s;
 	transition: background-color 		 .5s, color .5s;
+}
+
+.gallery-button.fa{
+	display: none;
 }
 
 .gallery-button:hover{
@@ -312,9 +314,9 @@ section .fa{
 	top: 10px;
 	font-size: 30px;
 	cursor: pointer;
-	-webkit-transition: color 0.5s;
-	-o-transition: color 0.5s;
-	transition: color 0.5s;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 	  0.3s;
+	transition: color 		  0.3s;
 }
 
 .full-size-image .close-button:hover{
@@ -322,6 +324,7 @@ section .fa{
 }
 
 .picture-container .katopic{
+	cursor: pointer;
 	color: black;
 	width: 150px;
 	height: 150px;
