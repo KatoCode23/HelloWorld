@@ -15,6 +15,18 @@ openImage= function(id){
 	$('.full-size-image').css('background-image', imagePath);
 	$('.full-size-image').css('display', 'block');
 	$('.gallery-button').addClass('turned-on');
+
+	if(currentImage === 1){
+		$('#prev-button').css('display', 'none');
+	}else{
+		$('#prev-button').css('display', 'inline-block');
+	}
+
+	if(currentImage === numberOfImages){
+		$('#next-button').css('display', 'none');
+	}else{
+		$('#next-button').css('display', 'inline-block');
+	}
 };
 
 $('.katopic').click(function(event){
@@ -27,6 +39,9 @@ $('.katopic').click(function(event){
 $('.close-button').click(function(event){
 	$('.full-size-image').css('display', 'none');
 	$('.gallery-button').removeClass('turned-on');
+
+	$('#next-button').css('display', 'none');
+	$('#prev-button').css('display', 'none');
 });
 
 $('.bio-button').click(function(){
