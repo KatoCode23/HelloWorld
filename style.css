@@ -35,7 +35,7 @@ header a:hover{
 .gallery-button{
 background: black;
 position: fixed;
-z-index: 11;
+z-index: 100;
 display: inline-block;
 height: 20px;
 color: #00F4FF;
@@ -49,10 +49,16 @@ top: 50%;
 font-family: ailerons;
 margin: 0px;
 border-radius: 10px;
+display: none;
+}
+
+.gallery-button.turned-on{
+	display: inline-block;
 }
 
 #next-button{
 right: 0px;
+
 	
 
 }
@@ -335,28 +341,6 @@ section .fa{
 	-webkit-filter: grayscale(0%);
 }
 
-.katopic-1{background-image: url(assets/img/modeling/1.jpg);}
-.katopic-2{background-image: url(assets/img/modeling/2.jpg);}
-.katopic-3{background-image: url(assets/img/modeling/3.jpg);}
-.katopic-4{background-image: url(assets/img/modeling/4.jpg);}
-.katopic-5{background-image: url(assets/img/modeling/5.jpg);}
-.katopic-6{background-image: url(assets/img/modeling/6.jpg);}
-.katopic-7{background-image: url(assets/img/modeling/7.jpg);}
-.katopic-8{background-image: url(assets/img/modeling/8.jpg);}
-.katopic-9{background-image: url(assets/img/modeling/9.jpg);}
-.katopic-10{background-image: url(assets/img/modeling/10.jpg);}
-.katopic-11{background-image: url(assets/img/modeling/11.jpg);}
-.katopic-12{background-image: url(assets/img/modeling/12.jpg);}
-.katopic-13{background-image: url(assets/img/modeling/13.jpg);}
-.katopic-14{background-image: url(assets/img/modeling/14.jpg);}
-.katopic-15{background-image: url(assets/img/modeling/15.jpg);}
-.katopic-16{background-image: url(assets/img/modeling/16.jpg);}
-.katopic-17{background-image: url(assets/img/modeling/17.jpg);}
-.katopic-18{background-image: url(assets/img/modeling/18.jpg);}
-.katopic-19{background-image: url(assets/img/modeling/19.jpg);}
-.katopic-21{background-image: url(assets/img/modeling/21.jpg);}
-.katopic-22{background-image: url(assets/img/modeling/22.jpg);}
-.katopic-23{background-image: url(assets/img/modeling/23.jpg);}
 
 
 .bio-text.hide{
