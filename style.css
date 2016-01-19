@@ -9,9 +9,12 @@ body{
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-color: red;
 	background-image: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Landscape_01.jpg);
+	cursor: pointer;
 }
 header{
 	text-align: right;
+	cursor: pointer;
+	top: 0px;
 }
 .header-span{
 	color: yellow;
