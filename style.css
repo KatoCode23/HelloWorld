@@ -29,15 +29,16 @@ header{
     line-height: 550px;
 }
 
-a{
+a.fa{
 	text-decoration: none;
 	color: white;
-	position: fixed;
+    margin: 15px;
+    display: inline-block;
+    position: fixed;
     right: 0px;
-    bottom: 0px;
-    margin: 20px;
-    font-size: 40px;
+    
 }
+
 
 
 
