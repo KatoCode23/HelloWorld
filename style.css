@@ -46,6 +46,11 @@ header{
 	position: absolute;
     left: 100px;
     top: 300px;
+    background-image: url(assets/img/modeling/eleenHalvorsenLogo.png);
+    background-size: contain;
+    height: 10%;
+    width: 20%;
+    background-repeat: no-repeat;
 }
 
 a.fa{
