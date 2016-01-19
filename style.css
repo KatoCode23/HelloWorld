@@ -36,16 +36,7 @@ header a{
 	top: 0px;
 }
 
-.contact-backround{
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: fixed;
-	top: 0px;
-	color: white;
-	background: black;
-}
+
 
 #logo{
 	position: absolute;
