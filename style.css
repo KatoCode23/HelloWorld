@@ -7,14 +7,26 @@
 body{
 	margin: 0px;
 	font-family: 'PT Sans Narrow', sans-serif;
-	background-color: red;
-	background-image: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Landscape_01.jpg);
-	cursor: pointer;
+	background-color: white;
+	
+
 }
+
 header{
 	text-align: right;
 	cursor: pointer;
 	top: 0px;
+}
+
+.full-size-image{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(assets/img/modeling/100.jpg);
+	position: fixed;
+	top: 0px;
+
 }
 .header-span{
 	color: yellow;
