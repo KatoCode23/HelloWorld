@@ -13,6 +13,19 @@ body{
 	top: 0px;
 }
 
+header{
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	background-color: transparent;
+	text-align: right;
+}
+
+.category{
+	display: inline-block;
+	margin: 15px;
+}
+
 
 
 
