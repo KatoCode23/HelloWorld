@@ -24,10 +24,14 @@ header{
 
 }
 
+header a{
+	text-decoration: none;
+}
+
 .category{
 	display: inline-block;
 	margin: 15px;
-	color: red;
+	color: white;
 	
 }
 .full-size-image-master{
