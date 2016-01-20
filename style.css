@@ -30,10 +30,16 @@ header a{
 
 .category{
 	display: inline-block;
-	margin: 15px;
-	color: red;
-	
+	margin: 20px;
+	color: black;
 }
+
+.category-1{
+	display: inline-block;
+	margin: 20px;
+	color: white;
+}
+
 .full-size-image-master{
 	background-image: url(assets/img/eleenPhotos/100.jpg);
 	background-size: cover;
@@ -63,7 +69,7 @@ header a{
 
 a.fa{
 	text-decoration: none;
-	margin: 10px;
+	margin: 15px;
 	display: inline-block;
 	color: white;
 
@@ -73,7 +79,7 @@ a.fa{
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
-	font-size: 20px;
+	font-size: 30px;
 
 }
 
