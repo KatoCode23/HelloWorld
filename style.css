@@ -4,11 +4,12 @@
 	src: url(fonts/Ailerons.ttf);
 }
 
+
+
 body{
 	margin: 0px;
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-color: white;
-	position: fixed;
 	top: 0px;
 	
 }
@@ -17,6 +18,7 @@ header{
 	text-align: right;
 	cursor: pointer;
 	top: 0px;
+	width: 100%;
 }
 
 header a{
@@ -34,13 +36,18 @@ header a{
 	color: white;
 }
 
-.bio-text{
+#bio-text{
     color: green;
     margin-top: 120px;
     margin-bottom: 225px;
     margin-right: 200px;
     margin-left: 200px;
     text-align: center;
+    padding: 10px;
+    background-image: url(assets/img/modeling/eleenHalvorsenLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 .contact-info{
@@ -78,6 +85,7 @@ li{
     height: 10%;
     width: 20%;
     background-repeat: no-repeat;
+
 }
 
 a.fa{
