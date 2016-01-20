@@ -41,6 +41,17 @@ header{
 
 }
 
+.logo{
+	display: block;
+	position: relative;
+	width: 50%;
+	height: 50%;
+	background-image: url(assets/img/modeling/EleenLogo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
 
 
 
