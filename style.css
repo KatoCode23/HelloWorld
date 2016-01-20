@@ -22,9 +22,31 @@ header{
 header a{
     text-decoration: none;
     padding: 7px;
-    margin: 15px;
-    color: red;
+    margin: 13px;
+    color: white;
 }
+
+.category{
+	color: black;
+}
+
+.category-1{
+	color: white;
+}
+
+.bio-text{
+    color: green;
+    margin-top: 120px;
+    margin-bottom: 225px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.contact-info{
+	text-decoration: none;
+}
+
 
 .full-size-image{
 	height: 100%;
