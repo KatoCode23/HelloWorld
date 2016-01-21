@@ -66,6 +66,31 @@ header a{
 	vertical-align: middle;
 	margin-left: 55px;
 }
+                                    
+
+.picture-container{
+	display: inline-block;
+    height: 60%;
+    background-color: transparent;
+    color: red;
+    position: fixed;
+    top: 25%;
+    width: 100%;
+    border: solid black 15px;
+}
+#picture-image{
+	position: relative;
+    border: solid red 15px;
+    margin-top: 10px;
+    margin-left: 35px;
+    height: 75%;
+    background-color: yellow;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
 
 a.fa{
 	text-decoration: none;
