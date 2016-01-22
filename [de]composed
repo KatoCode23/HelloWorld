@@ -1,0 +1,50 @@
+<html>
+	
+<head>
+
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<title>[de]composed</title>
+
+</head>
+
+<body>
+
+		<header>
+			<span><a class="category-1" href="collections.html">collections</a></span>
+			<span><a class="category" href="projects.html">projects</a></span>
+			<span><a class="category-1" href="shop.html">shop</a></span>
+			<span><a class="category-1" href="bio.html">bio</a></span>
+			<span><a class="category" href="press.html">press</a></span>
+			<span><a class="category" href="contact.html">contact</a></span>
+		</header>
+		<section class="full-size-image-collection">
+		<span><a class="collection-logo" href="eleen.html"></a></span>
+			<div class="gallery-container">
+				<div class="picture-container picture-image-1"></div>
+				<div class="picture-container picture-image-2"></div>
+				<div class="picture-container picture-image-3"></div>
+				<div class="picture-container picture-image-4"></div>
+				<div class="picture-container picture-image-5"></div>
+				<div class="picture-container picture-image-6"></div>
+				<div class="picture-container picture-image-7"></div>
+				<div class="picture-container picture-image-8"></div>
+				<div class="picture-container picture-image-9"></div>
+				<div class="picture-container picture-image-10"></div>
+				<div class="picture-container picture-image-11"></div>
+			</div>
+
+		
+		</section>
+	
+
+	<script src="jquery.js"></script>
+	<script src="main.js"></script>
+
+</body>
+
+</html>
