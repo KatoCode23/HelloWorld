@@ -91,6 +91,7 @@ header a{
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin-left: 25px;
+	z-index: 25;
 }
                                     
 .gallery-container{
@@ -122,6 +123,7 @@ header a{
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 29%;
+
 }
 
 
@@ -159,6 +161,30 @@ header a{
 }
 .picture-image-11{
 	background-image: url(assets/img/eleenPhotos/111.jpg);
+}
+
+             
+.bio-container{
+	position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 90px;
+    margin-left: 400px;
+    padding: 10px;
+    border: none;
+    width: 35%;
+    height: 75%;
+    display: block;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	color: black;
+	background-color: white;
+	text-align: center;
+    
+}
+
+::-webkit-scrollbar{
+	display: none;
 }
 
 
