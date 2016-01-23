@@ -31,13 +31,13 @@ header a{
 .category{
 	display: inline-block;
 	margin: 20px;
-	color: red;
+	color: black;
 }
 
 .category-1{
 	display: inline-block;
 	margin: 20px;
-	color: red;
+	color: black;
 }
 
 
@@ -79,6 +79,7 @@ header a{
 	cursor: pointer;
 
 }
+
 
 .collection-logo{
 	display: table-cell;
