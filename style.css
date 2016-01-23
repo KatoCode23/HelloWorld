@@ -22,26 +22,54 @@ header{
 	text-align: right;
 	z-index: 10;
 
+
 }
 
 header a{
 	text-decoration: none;
 }
-header ul li{
-	position: relative;
+
+.dropdown-menu{
 	display: inline-block;
+	margin-top: 22px;
+    margin-right: -40px;
+	color: red;
+	position: relative;
+	vertical-align: top;
+	cursor: pointer;
+
 }
+
+
+.dropdown{
+	display: none;
+	color: red;
+	cursor: pointer;
+	
+}
+
+.dropdown-menu:hover .dropdown{
+	display: block;
+}
+
 
 .category{
 	display: inline-block;
 	margin: 20px;
-	color: black;
+	color: red;
+	position: relative;
+	vertical-align: top;
+	cursor: pointer;
+
 }
 
 .category-1{
 	display: inline-block;
 	margin: 20px;
-	color: black;
+	color: red;
+	position: relative;
+	vertical-align: top;
+	cursor: pointer;
 }
 
 
