@@ -135,14 +135,14 @@ header a{
 	position: fixed;
 	right: 0px;
 	bottom: 0px;
-	width: 21%;
-	height: 35%;
+	width: 30%;
+	height: 50%;
 	background-image: url(assets/img/eleenPhotos/bio-pic.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin-right: 0px;
-	margin-bottom: 200px;
+	margin-bottom: 185px;
 	z-index: 25;
 }
                                     
@@ -265,7 +265,7 @@ header a{
     top: 0px;
     left: 0px;
     margin-top: 90px;
-    margin-left: 400px;
+    margin-left: 300px;
     padding: 10px;
     border: none;
     width: 35%;
@@ -310,7 +310,9 @@ a.fa{
 
 @media (min-width: 0px)
  and (max-width: 680px) {
-	.background-image-generic{
-		font-size: 70px;
+	.bio-pic{
+		height: 40%;
+		width: 10%;
+	}	
 	
 }
