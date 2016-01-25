@@ -48,12 +48,21 @@ ul li a{
 
 }
 
+.dropdown-container{
+	position: absolute;
+    right: -17px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+
 
 .dropdown{
 	display: none;
 	color: pink;
 	cursor: pointer;
 	position: relative;
+	margin-top: 10px;
 
 }
 
