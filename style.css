@@ -33,7 +33,7 @@ ul li{
 	list-style-type: none;
 }
 
-ul li a{
+a{
 	text-decoration: none;
 }
 
@@ -50,10 +50,10 @@ ul li a{
 
 .dropdown-container{
 	position: absolute;
-    right: -17px;
+    right: -80px;
     height: 100px;
     width: 200px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -62,8 +62,7 @@ ul li a{
 	color: pink;
 	cursor: pointer;
 	position: relative;
-	margin-top: 10px;
-
+	margin-top: 5px;
 }
 
 
@@ -203,13 +202,28 @@ ul li a{
     position: fixed;
     top: 0px;
     right: 0px;
-    margin-top: 110px;
-    margin-right: 250px;
+    margin-top: 220px;
+    margin-right: 400px;
     text-align: center;
 }
 
 .contact-info{
 	display: block;
+	margin-top: 0px;
+	font-size: 20px;
+	color: pink;
+}
+
+.contact-text{
+	font-size: 15px;
+	margin-bottom: 30px;
+	display: block;
+}
+
+
+
+.contact-info:hover{
+	border-bottom: solid pink 1px;
 }
 
 
@@ -298,7 +312,7 @@ ul li a{
 	position: relative;
     top: 0px;
     left: 0px;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 300px;
     padding: 10px;
     border: none;
@@ -340,6 +354,15 @@ a.fa{
 
 }
 
+.social-media-contact{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	font-size: 15px;
+}
+.social-media-contact a.fa{
+	color: pink;
+}
 
 
 
