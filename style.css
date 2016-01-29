@@ -171,8 +171,8 @@ a{
     margin-left: 300px;
     padding: 10px;
     border: none;
-    width: 100%;
-    height: 75%;
+    width: 900px;
+    height: 410px;
     display: block;
     white-space: nowrap;
 	overflow-x: scroll;
@@ -190,8 +190,8 @@ a{
 	padding: 10px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 29%;
+	height: 385;
+	width: 275;
 
 }
 
