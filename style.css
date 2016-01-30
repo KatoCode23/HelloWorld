@@ -202,8 +202,21 @@ a{
 	padding: 10px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 385;
-	width: 275;
+	height: 385px;
+	width: 275px;
+
+}
+
+#press-pic-container{
+	height: 400px;
+    width: 650px;
+    position: relative;
+    margin-top: 170px;
+    margin-left: 300px;
+    background-image: url(assets/img/eleenPress/eleenPress1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
 
 }
 
