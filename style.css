@@ -52,7 +52,7 @@ a{
 .dropdown-container{
 	position: absolute;
     right: -80px;
-    height: 100px;
+    height: 75px;
     width: 200px;
     text-align: left;
 }
@@ -63,7 +63,11 @@ a{
 	color: pink;
 	cursor: pointer;
 	position: relative;
-	margin-top: 5px;
+	margin-top: 1px;
+}
+
+.dropdown:hover{
+	color: black;
 }
 
 
@@ -167,7 +171,7 @@ a{
     color: black;
     top: 400px;
     left: 260px;
-    width: 81px;
+    width: 110px;
 }
 
 .press-link:hover{
@@ -179,13 +183,13 @@ a{
 	position: fixed;
 	right: 0px;
 	bottom: 0px;
-	width: 30%;
-	height: 50%;
+	width: 300px;
+	height: 300px;
 	background-image: url(assets/img/eleenPhotos/bio-pic.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: middle;
-	margin-right: 0px;
+	margin-right: 25px;
 	margin-bottom: 142px;
 	z-index: 25;
 }
@@ -236,27 +240,27 @@ a{
 }
 
 .contact-container{
-	height: 450px;
-    width: 400px;
+	height: 315px;
+    width: 250px;
     display: block;
     position: fixed;
     top: 0px;
     right: 0px;
     margin-top: 220px;
-    margin-right: 400px;
+    margin-right: 530px;
     text-align: center;
 }
 
 .bio-container{
-	position: relative;
+	position: fixed;
     top: 0px;
     left: 0px;
     margin-top: 110px;
-    margin-left: 300px;
+    margin-left: 420px;
     padding: 10px;
     border: none;
-    width: 35%;
-    height: 75%;
+    width: 350px;
+    height: 320px;
     display: block;
     overflow-x: hidden;
 	overflow-y: scroll;
