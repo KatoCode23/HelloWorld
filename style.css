@@ -207,13 +207,12 @@ a{
 
 }
 
-#press-pic-container{
+.press-pic-container{
 	height: 400px;
     width: 650px;
     position: relative;
     margin-top: 170px;
     margin-left: 300px;
-    background-image: url(assets/img/eleenPress/200.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -230,6 +229,26 @@ a{
     margin-top: 220px;
     margin-right: 400px;
     text-align: center;
+}
+
+.bio-container{
+	position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 110px;
+    margin-left: 300px;
+    padding: 10px;
+    border: none;
+    width: 35%;
+    height: 75%;
+    display: block;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	color: black;
+	background-color: white;
+	text-align: center;
+	z-index: 26;
+    
 }
 
 .contact-info{
@@ -332,26 +351,138 @@ a{
 	background-image: url(assets/img/eleenPhotos/115.jpg);
 }
 
-             
-.bio-container{
-	position: relative;
-    top: 0px;
-    left: 0px;
-    margin-top: 110px;
-    margin-left: 300px;
-    padding: 10px;
-    border: none;
-    width: 35%;
-    height: 75%;
-    display: block;
-    overflow-x: hidden;
-	overflow-y: scroll;
-	color: black;
-	background-color: white;
-	text-align: center;
-	z-index: 26;
-    
+.press-image-1{
+	background-image: url(assets/img/eleenPress/200.jpg);
 }
+
+.press-image-2{
+	background-image: url(assets/img/eleenPress/201.png);
+}
+.press-image-3{
+	background-image: url(assets/img/eleenPress/202.png);
+}
+.press-image-4{
+	background-image: url(assets/img/eleenPress/203.jpg);
+}
+.press-image-5{
+	background-image: url(assets/img/eleenPress/204.png);
+}
+.press-image-6{
+	background-image: url(assets/img/eleenPress/205.jpg);
+}
+.press-image-7{
+	background-image: url(assets/img/eleenPress/206.jpg);
+}
+.press-image-8{
+	background-image: url(assets/img/eleenPress/207.jpg);
+}
+.press-image-9{
+	background-image: url(assets/img/eleenPress/208.jpg);
+}
+.press-image-10{
+	background-image: url(assets/img/eleenPress/209.png);
+}
+.press-image-11{
+	background-image: url(assets/img/eleenPress/210.png);
+}
+
+.press-image-12{
+	background-image: url(assets/img/eleenPress/211.png);
+}
+.press-image-13{
+	background-image: url(assets/img/eleenPress/212.jpg);
+}
+.press-image-14{
+	background-image: url(assets/img/eleenPress/213.png);
+}
+.press-image-15{
+	background-image: url(assets/img/eleenPress/214.png);
+}
+.press-image-16{
+	background-image: url(assets/img/eleenPress/215.png);
+}
+.press-image-17{
+	background-image: url(assets/img/eleenPress/216.png);
+}
+.press-image-18{
+	background-image: url(assets/img/eleenPress/217.png);
+}
+.press-image-19{
+	background-image: url(assets/img/eleenPress/218.png);
+}
+.press-image-20{
+	background-image: url(assets/img/eleenPress/219.png);
+}
+.press-image-21{
+	background-image: url(assets/img/eleenPress/220.jpg);
+}
+
+.press-image-22{
+	background-image: url(assets/img/eleenPress/221.jpg);
+}
+.press-image-23{
+	background-image: url(assets/img/eleenPress/222.png);
+}
+.press-image-24{
+	background-image: url(assets/img/eleenPress/223.png);
+}
+.press-image-25{
+	background-image: url(assets/img/eleenPress/224.png);
+}
+.press-image-26{
+	background-image: url(assets/img/eleenPress/225.png);
+}
+.press-image-27{
+	background-image: url(assets/img/eleenPress/226.jpg);
+}
+.press-image-28{
+	background-image: url(assets/img/eleenPress/227.png);
+}
+.press-image-29{
+	background-image: url(assets/img/eleenPress/228.jpg);
+}
+.press-image-30{
+	background-image: url(assets/img/eleenPress/229.png);
+}
+.press-image-31{
+	background-image: url(assets/img/eleenPress/230.png);
+}
+.press-image-32{
+	background-image: url(assets/img/eleenPress/231.png);
+}
+.press-image-33{
+	background-image: url(assets/img/eleenPress/232.png);
+}
+.press-image-34{
+	background-image: url(assets/img/eleenPress/233.png);
+}
+.press-image-35{
+	background-image: url(assets/img/eleenPress/234.jpg);
+}
+.press-image-36{
+	background-image: url(assets/img/eleenPress/235.png);
+}
+.press-image-37{
+	background-image: url(assets/img/eleenPress/236.png);
+}
+.press-image-38{
+	background-image: url(assets/img/eleenPress/237.png);
+}
+.press-image-39{
+	background-image: url(assets/img/eleenPress/238.png);
+}
+.press-image-40{
+	background-image: url(assets/img/eleenPress/239.png);
+}
+.press-image-41{
+	background-image: url(assets/img/eleenPress/240.png);
+}
+.press-image-42{
+	background-image: url(assets/img/eleenPress/241.jpg);
+}
+
+             
+
 
 ::-webkit-scrollbar{
 	display: none;
