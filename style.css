@@ -188,9 +188,45 @@ a{
     padding-top: 40px;
 }
 
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 260px;
+    width: 110px;
+    padding-top: 30px;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 260px;
+    width: 110px;
+    padding-top: 25px;
+}
+
+
 .press-link:hover{
 	font-size: 20px;
-	color: pink;
+}
+
+.press-link-mod:hover{
+	font-size: 20px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 20px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 20px;
 }
 
 .bio-pic{
@@ -245,8 +281,9 @@ a{
 	height: 400px;
     width: 650px;
     position: relative;
+    top: -80px;
     margin-top: 170px;
-    margin-left: 300px;
+    margin-left: 333px;
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -579,13 +616,200 @@ a.fa{
 .gallery-container{
    width: 600px;
 }
+
+.press-pic-container{
+	height: 400px;
+    width: 530px;
+    position: relative;
+    top: -10px;
+    margin-top: 109px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
 }
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 200px;
+    width: 110px;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 200px;
+    width: 110px;
+    padding-top: 40px;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 200px;
+    width: 110px;
+    padding-top: 30px;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 200px;
+    width: 110px;
+    padding-top: 25px;
+}
+}
+
+@media (min-width: 0px)
+ and (max-width: 863px) {
+
+.press-pic-container{
+	height: 400px;
+    width: 450px;
+    position: relative;
+    top: -10px;
+    margin-top: 109px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+    padding-top: 15px;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+    padding-top: 10px;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+    padding-top: 5px;
+}
+
+
+}
+
 
 @media (min-width: 0px)
  and (max-width: 822px) {
 
 .gallery-container{
    width: 500px;
+}
+
+.press-pic-container{
+	height: 400px;
+    width: 450px;
+    position: relative;
+    top: -10px;
+    margin-top: 109px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+    padding-top: 15px;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+    padding-top: 10px;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 168px;
+    width: 110px;
+    padding-top: 5px;
 }
 }
 
@@ -628,8 +852,72 @@ a.fa{
 	background-image: url(assets/img/eleenPhotos/118.jpg);
 	height: 190px;
 }
-
 }
+
+@media (min-width: 0px)
+ and (max-width: 778px) {
+
+.press-pic-container{
+	height: 400px;
+    width: 400px;
+    position: relative;
+    top: -10px;
+    margin-top: 109px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 140px;
+    width: 110px;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 140px;
+    width: 110px;
+    padding-top: 15px;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 140px;
+    width: 110px;
+    padding-top: 10px;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: 140px;
+    width: 110px;
+    padding-top: 5px;
+}
+}
+
 
 @media (min-width: 0px)
  and (max-width: 768px) {
