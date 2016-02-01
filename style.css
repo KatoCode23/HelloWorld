@@ -700,7 +700,7 @@ a.fa{
     border: none;
     text-align: center;
     color: black;
-    top: 400px;
+    top: 385px;
     left: 168px;
     width: 110px;
 }
@@ -711,7 +711,7 @@ a.fa{
     border: none;
     text-align: center;
     color: black;
-    top: 400px;
+    top: 390px;
     left: 168px;
     width: 110px;
     padding-top: 15px;
@@ -723,7 +723,7 @@ a.fa{
     border: none;
     text-align: center;
     color: black;
-    top: 400px;
+    top: 390px;
     left: 168px;
     width: 110px;
     padding-top: 10px;
@@ -735,12 +735,22 @@ a.fa{
     border: none;
     text-align: center;
     color: black;
-    top: 400px;
+    top: 390px;
     left: 168px;
     width: 110px;
     padding-top: 5px;
 }
 
+.press-link-mod-4{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 450px;
+    left: 168px;
+    width: 110px;
+    padding-top: 5px;
 
 }
 
@@ -1047,6 +1057,170 @@ header{
 }
 
 @media (min-width: 0px)
+ and (max-width: 735px) {
+
+.press-pic-container{
+	height: 350px;
+    width: 350px;
+    position: relative;
+    top: -10px;
+    margin-top: 139px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 348px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-4{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 410px;
+    left: 120px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+}
+
+@media (min-width: 0px)
+ and (max-width: 690px) {
+
+.press-pic-container{
+	height: 327px;
+    width: 350px;
+    position: relative;
+    top: -10px;
+    margin-top: 139px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-4{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 376px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+}
+
+@media (min-width: 0px)
  and (max-width: 414px) {
 
 .gallery-container{
@@ -1157,6 +1331,85 @@ header{
 	height: 30px;
 }
 
+.press-pic-container{
+	height: 327px;
+    width: 350px;
+    position: relative;
+    top: -10px;
+    right: 318px;
+    margin-top: 139px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    z-index: 26;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-4{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 376px;
+    left: 118px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
 }
 	
 
