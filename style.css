@@ -1519,4 +1519,83 @@ header{
 .press-logo{
 	display: none;
 }
+
+.press-pic-container{
+	height: 327px;
+    width: 300px;
+    position: relative;
+    top: -70px;
+    left: -322px;
+    margin-top: 139px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+
+.press-link{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 95px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 95px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-2{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 95px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-3{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 330px;
+    left: 95px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
+
+.press-link-mod-4{
+	position: relative;
+    display: block;
+    border: none;
+    text-align: center;
+    color: black;
+    top: 376px;
+    left: 95px;
+    width: 110px;
+    padding-top: 0px;
+    margin-top: -10;
+}
 }
