@@ -1234,6 +1234,24 @@ header{
 }
 
 @media (min-width: 0px)
+ and (max-width: 600px) {
+
+ .press-pic-container{
+	height: 327px;
+    width: 350px;
+    position: relative;
+    top: -10px;
+    left: -96px;
+    margin-top: 139px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+}
+
+@media (min-width: 0px)
  and (max-width: 414px) {
 
 .gallery-container{
@@ -1449,7 +1467,25 @@ header{
 }
 }
 
-	
+
+@media (min-width: 0px)
+ and (max-width: 360px) {
+
+.press-pic-container{
+	height: 327px;
+    width: 350px;
+    position: relative;
+    top: -10px;
+    left: -328px;
+    margin-top: 139px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    z-index: 26;
+}
+}	
 
 @media (min-width: 0px)
  and (max-width: 320px) {
