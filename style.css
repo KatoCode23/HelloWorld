@@ -165,6 +165,20 @@ a{
 	z-index: 25;
 }
 
+.contact-logo{
+	display: block;
+	position: fixed;
+	left: 0px;
+	top: 270px;
+	width: 200px;
+	height: 100px;
+	background-image: url(assets/img/eleenPhotos/EleenLogo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 25px;
+	z-index: 25;
+}
+
 .press-logo{
 	display: block;
 	position: fixed;
@@ -318,12 +332,13 @@ a{
 
 }
 
+
 .contact-container{
 	height: 315px;
-    width: 250px;
+    width: 253px;
     display: block;
     position: fixed;
-    top: 0px;
+    top: -45px;
     right: 0px;
     margin-top: 220px;
     margin-right: 530px;
@@ -619,7 +634,30 @@ a.fa{
 	color: pink;
 }
 
+/*@media (min-width: 0px)
+ and (max-width: 1440px) {
 
+.bio-container{
+   top: 160px;
+   left: 95px;
+}
+
+.bio-pic{
+	top: 300px;
+}
+
+.bio-logo{
+	top: 415px;
+}
+}
+
+@media (min-width: 0px)
+ and (max-width: 1280px) {
+
+.bio-container{
+   left: 15px;
+}
+}*/
 
 @media (min-width: 0px)
  and (max-width: 1036px) {
@@ -632,6 +670,11 @@ a.fa{
     left: -115px;
 }
 
+.contact-container{
+	right: -185px;
+}
+}
+
 @media (min-width: 0px)
  and (max-width: 1010px) {
 
@@ -641,6 +684,9 @@ a.fa{
 .bio-container{
     left: -135px;
 }
+.contact-container{
+	right: -200px;
+}
 }
 
 @media (min-width: 0px)
@@ -648,6 +694,10 @@ a.fa{
 
 .gallery-container{
    width: 600px;
+}
+
+.contact-container{
+	right: -210px;
 }
 
 .bio-container{
@@ -716,10 +766,21 @@ a.fa{
 }
 
 @media (min-width: 0px)
+ and (max-width: 950px) {
+
+.contact-container{
+    right: -225px;
+}
+}
+
+@media (min-width: 0px)
  and (max-width: 927px) {
 
 .bio-container{
     left: -174px;
+}
+.contact-container{
+    right: -235px;
 }
 } 	
 
@@ -729,7 +790,36 @@ a.fa{
 .bio-container{
     left: -185px;
 }
+.contact-container{
+    right: -255px;
 }
+}
+
+@media (min-width: 0px)
+ and (max-width: 900px) {
+
+.bio-container{
+    top: 55px;
+}
+
+.bio-pic{
+	top: 193px;
+}
+.contact-container{
+    right: -270px;
+}
+}
+
+@media (min-width: 0px)
+ and (max-width: 899px) {
+
+.bio-pic{
+    width: 190px;
+    height: 250px;
+}
+}
+
+
 
 @media (min-width: 0px)
  and (max-width: 863px) {
@@ -737,6 +827,10 @@ a.fa{
 .bio-pic{
 	width: 200px;
 	height: 260px;
+}
+
+.contact-container{
+    right: -300px;
 }
 
 .press-pic-container{
@@ -921,6 +1015,10 @@ a.fa{
    width: 264px;
 }
 
+.contact-container{
+    right: -315px;
+}
+
 .picture-image-20{
 	background-image: url(assets/img/eleenPhotos/118.jpg);
 	height: 190px;
@@ -933,6 +1031,10 @@ a.fa{
 .bio-pic{
 	width: 150px;
 	height: 250px;
+}
+
+.contact-container{
+    right: -325px;
 }
 
 .press-pic-container{
@@ -1000,28 +1102,38 @@ a.fa{
 @media (min-width: 0px)
  and (max-width: 768px) {
 
-.bio-pic{
-	height: 350px;
-	width: 562px;
-}
-
-
 header{
-	text-align: center;
+	text-align: left;
 }
 
+.bio-pic{
+	display: none;
+}
+
+.bio-container{
+	left: -215px;
+	top: 100px;
+}
+
+.contact-container{
+    top: 80px;
+}
 
 .dropdown{
 	margin-bottom: 15px;
-	margin-left: -12px;
+	margin-left: -1px;
 	margin-top: 15px;
+	font-size: 15px;
+}
+
+.dropdown:hover{
 	font-size: 18px;
 }
 
 .dropdown-menu{
     margin-right: -25px;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
@@ -1039,10 +1151,15 @@ header{
 
 .category-1{
 	margin: 20px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .collection-logo{
+	position: fixed;
+	top: 545px;
+}
+
+.contact-logo{
 	position: fixed;
 	top: 545px;
 }
@@ -1069,10 +1186,6 @@ header{
 
 .bio-logo{
 	display: none;
-}
-
-.bio-container{
-	left: -258px;
 }
 }
 
@@ -1219,6 +1332,9 @@ header{
     padding-top: 0px;
     margin-top: -10;
 }
+.contact-container{
+    right: -350px;
+}
 }
 
 @media (min-width: 0px)
@@ -1305,6 +1421,9 @@ header{
 .bio-container{
 	left: -300px;
 }
+.contact-container{
+    right: -375px;
+}
 }
 
 @media (min-width: 0px)
@@ -1312,6 +1431,17 @@ header{
 
 .bio-container{
 	left: -333px;
+}
+.contact-container{
+    right: -400px;
+}
+}
+
+@media (min-width: 0px)
+ and (max-width: 636px) {
+
+.contact-container{
+    right: -425px;
 }
 }
 
@@ -1321,13 +1451,21 @@ header{
 .bio-container{
 	left: -355px;
 }
+.contact-container{
+    right: -450px;
+}
 }
 
 @media (min-width: 0px)
  and (max-width: 600px) {
 
 .bio-container{
-	left: -375px;
+	left: -303px;
+	top: 142px;
+}
+
+.contact-container{
+    right: -470px;
 }
 
  .press-pic-container{
@@ -1350,6 +1488,7 @@ header{
 
 .bio-container{
 	left: -396px;
+	top: 30px;
 }
 
 .bio-pic{
@@ -1410,6 +1549,12 @@ header{
 	height: 30px;
 }
 
+.contact-logo{
+	position: fixed;
+	top: 140px;
+	height: 30px;
+}
+
 .press-logo{
 	display: none;
 }
@@ -1429,8 +1574,32 @@ header{
     background-position: center;
     z-index: 26;
 }
+.contact-container{
+	right: -450px;
+    top: 30px;
+}
 }
 
+@media (min-width: 0px)
+ and (max-width: 384px) {
+
+.contact-container{
+	right: -461px;
+	top: 15px;
+}
+
+.press-pic-container{
+	left: -316px;
+}
+
+.bio-container {
+    left: -411px;
+}
+
+.gallery-container{
+	height: 350px;
+}
+}
 
 @media (min-width: 0px)
  and (max-width: 375px) {
@@ -1441,6 +1610,7 @@ header{
 
 .bio-container{
 	left: -418px;
+	top: 38px;
 }
 
 .gallery-container{
@@ -1489,6 +1659,12 @@ header{
 }
 
 .collection-logo{
+	position: fixed;
+	top: 140px;
+	height: 30px;
+}
+
+.contact-logo{
 	position: fixed;
 	top: 140px;
 	height: 30px;
@@ -1577,6 +1753,11 @@ header{
 .press-logo{
 	display: none;
 }
+
+.contact-container{
+	right: -470px;
+    top: 23px;
+}
 }
 
 
@@ -1597,6 +1778,15 @@ header{
     background-position: center;
     z-index: 26;
 }
+
+.bio-container{
+	left: -421px;
+}
+
+.contact-container{
+	right: -478px;
+    top: 5px;
+}
 }	
 
 @media (min-width: 0px)
@@ -1606,8 +1796,14 @@ header{
 	text-align: center;
 }
 
+.contact-container{
+	right: -492px;
+    top: -15px;
+}
+
 .bio-container{
 	width: 298px;
+	top: 23px;
 }
 
 .gallery-container{
@@ -1659,6 +1855,12 @@ header{
 }
 
 .collection-logo{
+	position: fixed;
+	top: 120px;
+	height: 30px;
+}
+
+.contact-logo{
 	position: fixed;
 	top: 120px;
 	height: 30px;
