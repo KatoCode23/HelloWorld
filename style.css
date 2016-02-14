@@ -634,30 +634,14 @@ a.fa{
 	color: pink;
 }
 
-/*@media (min-width: 0px)
- and (max-width: 1440px) {
 
-.bio-container{
-   top: 160px;
-   left: 95px;
-}
+
+@media  (min-width: 1280px) {
 
 .bio-pic{
-	top: 300px;
-}
-
-.bio-logo{
-	top: 415px;
+	top: 140px;
 }
 }
-
-@media (min-width: 0px)
- and (max-width: 1280px) {
-
-.bio-container{
-   left: 15px;
-}
-}*/
 
 @media (min-width: 0px)
  and (max-width: 1036px) {
@@ -1865,6 +1849,7 @@ header{
 	top: 120px;
 	height: 30px;
 }
+
 .picture-image-20{
 	background-image: url(assets/img/eleenPhotos/118.jpg);
 	width: 505px;
