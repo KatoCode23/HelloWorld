@@ -325,7 +325,7 @@ a{
 	height: 400px;
     width: 650px;
     position: relative;
-    top: -80px;
+    top: 0px;
     margin-top: 170px;
     margin-left: 333px;
     background-size: contain;
@@ -745,8 +745,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     top: 530px;
 }
 
@@ -839,8 +839,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     top: 530px;
 }
 
@@ -933,8 +933,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     top: 530px;
 }
 
@@ -1027,8 +1027,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     top: 530px;
 }
 
@@ -1121,8 +1121,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     top: 530px;
 }
 
@@ -1215,8 +1215,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     top: 530px;
 }
 
@@ -1309,8 +1309,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     top: 530px;
 }
 
@@ -1404,8 +1404,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     top: 530px;
 }
 
@@ -1499,8 +1499,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     top: 530px;
 }
 
@@ -1594,8 +1594,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     top: 530px;
 }
 
@@ -1689,8 +1689,8 @@ p{
 }
 
 .press-logo {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     top: 530px;
 }
 
@@ -1776,6 +1776,69 @@ p{
 	width: 1083px;
 }
 
+.press-pic-container {
+    height: 450px;
+    width: 650;
+    left: 555px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 500px;
+	left: 265px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
+}
+
 .bio-pic{
 	top: 220px;
 	right: 120px;
@@ -1808,6 +1871,69 @@ p{
 	width: 1083px;
 }
 
+.press-pic-container {
+    height: 450px;
+    width: 650;
+    left: 555px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 500px;
+	left: 265px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
+}
+
 .bio-pic{
 	top: 220px;
 	right: 110px;
@@ -1838,6 +1964,69 @@ p{
 
 .gallery-container{
 	width: 1083px;
+}
+
+.press-pic-container {
+    height: 450px;
+    width: 650;
+    left: 555px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 485px;
+	left: 243px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 500px;
+	left: 265px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
 }
 
 .bio-pic{
@@ -1873,6 +2062,69 @@ p{
 	width: 1083px;
 }
 
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 450px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
+}
+
 .bio-pic{
 	top: 220px;
 	right: 90px;
@@ -1904,6 +2156,69 @@ p{
 
 .gallery-container{
 	width: 1083px;
+}
+
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 450px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
 }
 
 .bio-pic{
@@ -1938,6 +2253,69 @@ p{
 	width: 804px;
 }
 
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 400px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
+}
+
 .bio-pic{
 	top: 220px;
 	right: 70px;
@@ -1970,6 +2348,69 @@ p{
 	width: 804px;
 }
 
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 360px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 400px;
+    height: 300px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
+}
+
 .bio-pic{
 	top: 220px;
 	right: 40px;
@@ -2000,6 +2441,69 @@ p{
 
 .gallery-container{
 	width: 804px;
+}
+
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 300px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 400px;
+    height: 300px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
 }
 
 .bio-pic{
@@ -2035,6 +2539,69 @@ p{
 	width: 804px;
 }
 
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 300px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
+}
+
 .bio-pic{
 	top: 220px;
 	height: 330px;
@@ -2065,6 +2632,69 @@ p{
 
 .gallery-container{
 	width: 804px;
+}
+
+.press-pic-container {
+    height: 400px;
+    width: 650;
+    left: 50px;
+    top: 100px;
+}
+
+.press-logo {
+    width: 300px;
+    height: 200px;
+    top: 530px;
+}
+
+.press-link{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-2{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}
+
+.press-link-mod-3{
+	top: 415px;
+	left: 245px;
+	font-size: 25px;
+}	
+
+.press-link-mod-4{
+	top: 426px;
+	left: 263px;
+	font-size: 25px;
+}
+
+.press-link:hover{
+	font-size: 35px;
+}
+
+.press-link-mod:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-2:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-3:hover{
+	font-size: 35px;
+}
+
+.press-link-mod-4:hover{
+	font-size: 35px;
 }
 
  .bio-pic{
