@@ -409,7 +409,7 @@ a{
 }
 
 .copyRight{
-	position: absolute;
+	position: fixed;
 	bottom: 2px;
     left: 12px;
     font-size: 12px;
@@ -697,6 +697,12 @@ a.fa{
 	width: 2230px;
 }
 
+.logo{
+	width: 600px;
+	height: 500px;
+	top: 615px;
+}
+
 .contact-logo{
 	width: 500px;
 	height: 400px;
@@ -832,6 +838,12 @@ p{
 
 .gallery-container{
 	width: 2121px;
+}
+
+.logo{
+	width: 500px;
+	height: 400px;
+	top: 615px;
 }
 
 .contact-logo{
@@ -971,6 +983,12 @@ p{
 	width: 1980px;
 }
 
+.logo{
+	width: 500px;
+	height: 400px;
+	top: 615px;
+}
+
 .contact-logo {
     width: 400px;
     height: 300px;
@@ -1106,6 +1124,12 @@ p{
 
 .gallery-container{
 	width: 1890px;
+}
+
+.logo{
+	width: 500px;
+	height: 400px;
+	top: 615px;
 }
 
 .contact-logo {
@@ -1245,6 +1269,12 @@ p{
 	width: 1740px;
 }
 
+.logo{
+	width: 500px;
+	height: 400px;
+	top: 615px;
+}
+
 .contact-logo {
     width: 400px;
     height: 300px;
@@ -1380,6 +1410,12 @@ p{
 
 .gallery-container{
 	width: 1695px;
+}
+
+.logo{
+	width: 500px;
+	height: 400px;
+	top: 615px;
 }
 
 .contact-logo {
@@ -1519,6 +1555,12 @@ p{
 	width: 1561px;
 }
 
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -1654,6 +1696,12 @@ p{
 
 .gallery-container{
 	width: 1501px;
+}
+
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
 }
 
 .contact-logo {
@@ -1793,6 +1841,12 @@ p{
 	width: 1461px;
 }
 
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -1928,6 +1982,12 @@ p{
 
 .gallery-container{
 	width: 1421px;
+}
+
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
 }
 
 .contact-logo {
@@ -2067,6 +2127,12 @@ p{
 	width: 1405px;
 }
 
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -2202,6 +2268,12 @@ p{
 
 .gallery-container{
 	width: 1361px;
+}
+
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
 }
 
 .contact-logo {
@@ -2341,6 +2413,12 @@ p{
 	width: 1253px;
 }
 
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -2476,6 +2554,12 @@ p{
 
 .gallery-container{
 	width: 1233px;
+}
+
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
 }
 
 .contact-logo {
@@ -2615,6 +2699,12 @@ p{
 	width: 1183px;
 }
 
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -2749,6 +2839,12 @@ p{
 
 .gallery-container{
 	width: 1134px;
+}
+
+.logo{
+	width: 400px;
+	height: 300px;
+	top: 480px;
 }
 
 .contact-logo {
@@ -2886,6 +2982,12 @@ p{
 	width: 1104px;
 }
 
+.logo{
+	width: 300px;
+	height: 200px;
+	top: 495px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -3018,6 +3120,12 @@ p{
 
 .gallery-container{
 	width: 1004px;
+}
+
+.logo{
+	width: 300px;
+	height: 200px;
+	top: 400px;
 }
 
 .contact-logo {
@@ -3155,6 +3263,12 @@ p{
 	width: 1004px;
 }
 
+.logo{
+	width: 300px;
+	height: 200px;
+	top: 400px;
+}
+
 .contact-logo {
     width: 300px;
     height: 200px;
@@ -3287,6 +3401,12 @@ p{
 
 .gallery-container{
 	width: 904px;
+}
+
+.logo{
+	width: 300px;
+	height: 200px;
+	top: 400px;
 }
 
 .contact-logo {
@@ -3424,6 +3544,12 @@ p{
 	width: 904px;
 }
 
+.logo{
+	width: 300px;
+	height: 200px;
+	top: 275px;
+}
+
 .contact-logo {
     width: 200px;
     height: 100px;
@@ -3559,6 +3685,12 @@ p{
 	width: 846px;
 }
 
+.logo{
+	width: 300px;
+	height: 200px;
+	top: 275px;
+}
+
 .contact-logo {
     width: 200px;
     height: 100px;
@@ -3566,7 +3698,7 @@ p{
 }
 
 .contact-container{
-	right: -300px;
+	right: -200px;
 	height: 555px;
 	width: 625px;
 	top: -50px;
@@ -3593,7 +3725,7 @@ p{
     height: 400px;
     width: 650;
     left: 50px;
-    top: 0px;
+    top: -50px;
 }
 
 .press-logo {
@@ -3605,75 +3737,75 @@ p{
 .press-link{
 	top: 415px;
 	left: 245px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .press-link-mod{
 	top: 415px;
 	left: 245px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .press-link-mod-2{
 	top: 415px;
 	left: 245px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .press-link-mod-3{
 	top: 415px;
 	left: 245px;
-	font-size: 25px;
+	font-size: 20px;
 }	
 
 .press-link-mod-4{
 	top: 426px;
 	left: 263px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .press-link:hover{
-	font-size: 35px;
+	font-size: 23px;
 }
 
 .press-link-mod:hover{
-	font-size: 35px;
+	font-size: 23px;
 }
 
 .press-link-mod-2:hover{
-	font-size: 35px;
+	font-size: 23px;
 }
 
 .press-link-mod-3:hover{
-	font-size: 35px;
+	font-size: 23px;
 }
 
 .press-link-mod-4:hover{
-	font-size: 35px;
+	font-size: 23px;
 }
 
  .bio-pic{
  	right: -35px;
-    top: 220px;
+    top: 200px;
     height: 325px;
 	width: 325px;
  }
 
  .bio-container{
-	left: -60px;
-	top: 70px;
+	left: 10px;
+	top: 50px;
 	width: 375px;
-	height: 450px;
+	height: 400px;
 }
 
 p{
-	font-size: 26px;
+	font-size: 20px;
 }
 
 .bio-logo{
-	top: 348px;
-	width: 300px;
-	height: 250px;
+	top: 328px;
+	width: 250px;
+	height: 150px;
 }
 
 .preview-title{
@@ -4048,6 +4180,10 @@ p{
 @media (min-width: 0px)
  and (max-width: 800px) {
 
+.logo {
+    top: 613px;
+}
+
 .bio-pic{
 	width: 180px;
 	height: 250px;
@@ -4072,10 +4208,29 @@ p{
     top: 300px;
 }
 
+.project-logo{
+	width: 250px;
+	height: 150px;
+}
+
+.preview-title {
+    left: 444px;
+    top: 279px;
+    font-size: 23px;
+}    
+
 .picture-image-20{
 	background-image: url(assets/img/eleenPhotos/118.jpg);
 	height: 190px;
 }
+}
+
+@media (min-width: 601px)
+ and (max-width: 799px) {
+
+.logo{
+	top: 270px;
+} 
 }
 
 @media (min-width: 0px)
@@ -4238,6 +4393,11 @@ header{
 
 .bio-logo{
 	display: none;
+}
+
+.preview-title {
+    left: 346px;
+    top: 540px;
 }
 }
 
@@ -4512,6 +4672,11 @@ header{
 @media (min-width: 0px)
  and (max-width: 600px) {
 
+.logo{
+	left: 83px;
+    top: 477px;
+}
+
 .bio-container{
 	left: -303px;
 	top: 142px;
@@ -4539,6 +4704,11 @@ header{
     display: block;
     background-position: center;
 }
+
+.preview-title {
+    left: 260px;
+    top: 575px;
+}
 }
 
 @media (min-width: 415px)
@@ -4547,11 +4717,29 @@ header{
 .contact-container{
 	left: 150px;
 }
+
+.dropdown-menu {
+    margin-right: -38px;
 }
 
+.project-logo {
+    top: 195px;
+}
+
+.preview-title {
+    left: 125px;
+    top: 395px;
+}
+}
+	
 
 @media (min-width: 0px)
  and (max-width: 414px) {
+
+.logo{
+	left: 12px;
+	top: 338px;
+}
 
 .bio-container{
 	left: -396px;
@@ -4645,10 +4833,24 @@ header{
 	left: 83px;
     top: 30px;
 }
+
+.project-logo{
+	top: 190px;
+}
+
+.preview-title {
+    left: 123px;
+    top: 418px;
+}
 }
 
 @media (min-width: 0px)
  and (max-width: 384px) {
+
+.logo {
+    left: -6px;
+    top: 263px;
+}
 
 .contact-container{
 	left: 63px;
@@ -4671,10 +4873,24 @@ header{
 .picture-container{
 	width: 355px;
 }
+
+.project-logo {
+    top: 158px;
+}
+
+.preview-title {
+    left: 104px;
+    top: 328px;
+}
 }
 
 @media (min-width: 0px)
  and (max-width: 375px) {
+
+.logo {
+    left: -10px;
+    top: 262px;
+}
 
 .bio-pic{
 	display: none;
@@ -4830,11 +5046,24 @@ header{
 	left: 63px;
     top: 23px;
 }
+
+.project-logo{
+	top: 180px;
 }
 
+.preview-title {
+    left: 120px;
+    top: 365px;
+}
+}
 
 @media (min-width: 0px)
  and (max-width: 360px) {
+
+.logo {
+    left: -21px;
+    top: 288px;
+}
 
 .press-pic-container{
 	height: 327px;
@@ -4859,13 +5088,27 @@ header{
 	right: -478px;
     top: 5px;
 }
+
+.project-logo{
+	top: 152px;
+}
+
+.preview-title {
+    left: 116px;
+    top: 321px;
 }	
+}
 
 @media (min-width: 0px)
  and (max-width: 320px) {
 
 header{
 	text-align: center;
+}
+
+.logo {
+    left: -42px;
+    top: 252px;
 }
 
 .contact-container{
@@ -5026,4 +5269,15 @@ header{
     padding-top: 0px;
     margin-top: -10;
 }
+
+.project-logo{
+	top: 158px;
 }
+
+.preview-title {
+    left: 115px;
+    top: 340px;
+}
+}
+
+
