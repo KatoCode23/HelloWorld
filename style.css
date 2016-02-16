@@ -100,7 +100,7 @@ a{
 
 
 .full-size-image-master{
-	background-image: url(assets/img/eleenPhotos/100.jpg);
+	background-image: url(assets/img/eleenPhotos/300.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -474,6 +474,31 @@ a{
 .picture-image-25{
 	background-image: url(assets/img/eleenPhotos/115.jpg);
 }
+.picture-image-26{
+	background-image: url(assets/img/eleenPhotos/127.jpg);
+}
+.picture-image-27{
+	background-image: url(assets/img/eleenPhotos/128.jpg);
+}
+.picture-image-28{
+	background-image: url(assets/img/eleenPhotos/129.jpg);
+}
+.picture-image-29{
+	background-image: url(assets/img/eleenPhotos/130.jpg);
+}
+.picture-image-30{
+	background-image: url(assets/img/eleenPhotos/132.jpg);
+}
+.picture-image-31{
+	background-image: url(assets/img/eleenPhotos/135.jpg);
+}
+.picture-image-32{
+	background-image: url(assets/img/eleenPhotos/136.jpg);
+}
+.picture-image-33{
+	background-image: url(assets/img/eleenPhotos/300.jpg);
+}
+
 
 .press-image-1{
 	background-image: url(assets/img/eleenPress/241.jpg);
