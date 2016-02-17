@@ -53,13 +53,31 @@ a{
 .dropdown-container{
 	position: absolute;
     right: -80px;
-    height: 75px;
+    height: 100px;
     width: 200px;
     text-align: left;
 }
 
 
 .dropdown{
+	display: none;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	margin-top: 15px;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.dropdown-menu:hover .dropdown{
+	display: block;
+}
+
+.dropdown:hover{
+	font-size: 15px;
+}
+
+.dropdown-1{
 	display: none;
 	color: #AD3519;
 	cursor: pointer;
@@ -69,14 +87,15 @@ a{
 	margin-bottom: 15px;
 }
 
-.dropdown:hover{
+.dropdown-menu:hover .dropdown-1{
+	display: block;
+}
+
+.dropdown-1:hover{
 	font-size: 15px;
 }
 
 
-.dropdown-menu:hover .dropdown{
-	display: block;
-}
 
 
 .category{
@@ -516,16 +535,37 @@ a{
 	background-image: url(assets/img/eleenPhotos/130.jpg);
 }
 .picture-image-30{
-	background-image: url(assets/img/eleenPhotos/132.jpg);
+	background-image: url(assets/img/eleenPhotos/131.jpg);
 }
 .picture-image-31{
-	background-image: url(assets/img/eleenPhotos/135.jpg);
+	background-image: url(assets/img/eleenPhotos/132.jpg);
 }
 .picture-image-32{
-	background-image: url(assets/img/eleenPhotos/136.jpg);
+	background-image: url(assets/img/eleenPhotos/133.jpg);
 }
 .picture-image-33{
-	background-image: url(assets/img/eleenPhotos/300.jpg);
+	background-image: url(assets/img/eleenPhotos/134.jpg);
+}
+.picture-image-34{
+	background-image: url(assets/img/eleenPhotos/135.jpg);
+}
+.picture-image-35{
+	background-image: url(assets/img/eleenPhotos/136.jpg);
+}
+.picture-image-36{
+	background-image: url(assets/img/eleenPhotos/137.jpg);
+}
+.picture-image-37{
+	background-image: url(assets/img/eleenPhotos/138.jpg);
+}
+.picture-image-38{
+	background-image: url(assets/img/eleenPhotos/139.jpg);
+}
+.picture-image-39{
+	background-image: url(assets/img/eleenPhotos/140.jpg);
+}
+.picture-image-40{
+	background-image: url(assets/img/eleenPhotos/141.jpg);
 }
 
 
@@ -4351,6 +4391,17 @@ header{
 	font-size: 18px;
 }
 
+.dropdown-1{
+	margin-bottom: 15px;
+	margin-left: -1px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.dropdown-1:hover{
+	font-size: 18px;
+}
+
 .dropdown-menu{
     margin-right: -25px;
     margin-top: 20px;
@@ -4418,6 +4469,13 @@ header{
 }
 
 .dropdown{
+	margin-bottom: 15px;
+	margin-left: 7px;
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+.dropdown-1{
 	margin-bottom: 15px;
 	margin-left: 7px;
 	margin-top: 15px;
@@ -4793,6 +4851,13 @@ header{
     font-size: 12px;
 }
 
+.dropdown-1{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+
 .dropdown-menu{
 	margin-right: -48px;
 	margin-top: 10px;
@@ -4937,6 +5002,12 @@ header{
 }
 
 .dropdown{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 7px;
+}
+
+.dropdown-1{
     margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 7px;
@@ -5165,6 +5236,13 @@ header{
 }
 
 .dropdown{
+   margin-bottom: 15px;
+   margin-top: 10px;
+   margin-left: -4px;
+   font-size: 9px;
+}
+
+.dropdown-1{
    margin-bottom: 15px;
    margin-top: 10px;
    margin-left: -4px;
