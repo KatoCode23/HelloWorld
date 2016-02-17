@@ -415,6 +415,14 @@ a{
     font-size: 12px;
 }
 
+.home-copyRight{
+	position: fixed;
+	color: #AD3519;
+	bottom: 8px;
+    right: 112px;
+    font-size: 12px;
+}
+
 
 
 .picture-image-1{
@@ -676,7 +684,7 @@ a.fa{
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
-	font-size: 20px;
+	font-size: 15px;
 
 }
 
@@ -4692,6 +4700,11 @@ header{
 	top: 200px;
 }
 
+.project-logo{
+	width: 200px;
+	height: 100px;
+}
+
  .press-pic-container{
 	height: 327px;
     width: 350px;
@@ -4877,6 +4890,7 @@ header{
 
 .project-logo {
     top: 158px;
+    width: 150px;
 }
 
 .preview-title {
@@ -5092,6 +5106,7 @@ header{
 
 .project-logo{
 	top: 152px;
+	width: 150px;
 }
 
 .preview-title {
@@ -5277,7 +5292,7 @@ header{
 
 .preview-title {
     left: 115px;
-    top: 340px;
+    top: 304px;
 }
 }
 
