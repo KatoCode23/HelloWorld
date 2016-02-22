@@ -1,9 +1,9 @@
+$(".dropdown-menu .label").click(function(){
+	var open = $(".dropdown-container").hasClass("open");
 
-var numberOfImages= 12
-var currentImage= null
-
-for (var i=200; i<=numberOfImages; i++){
-var element= $('<div id = '+i+' style= "background-image: url(assets/img/eleenPress/ ' + i +'.jpg)"></div')
-$("#press-pic-container").append(element);
-
-}
+	if(open){
+		$(".dropdown-container").removeClass("open");
+	}else{
+		$(".dropdown-container").addClass("open");
+	}
+});

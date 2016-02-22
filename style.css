@@ -40,45 +40,32 @@ a{
 
 .dropdown-menu{
 	display: inline-block;
-	margin-top: 22px;
+    margin-top: 22px;
     margin-right: -40px;
-	color: #AD3519;
-	position: relative;
-	vertical-align: top;
-	cursor: pointer;
-	margin-left: 25px;
+    color: #AD3519;
+    cursor: pointer;
+    text-align: left;
+    width: 130px;
+}
 
+.dropdown-menu ul{
+    padding-left: 0px;
+}
+
+.dropdown a:hover{
+	color: #E79991;
 }
 
 .dropdown-container{
-	position: absolute;
-    right: -80px;
-    height: 100px;
-    width: 200px;
     text-align: left;
-}
-
-
-.dropdown{
 	display: none;
-	color: white;
-	cursor: pointer;
-	position: relative;
-	margin-top: 15px;
-	font-size: 12px;
-	margin-bottom: 15px;
 }
 
-.dropdown-menu:hover .dropdown{
+.dropdown-container.open{
 	display: block;
 }
 
-.dropdown:hover{
-	font-size: 15px;
-}
-
-.dropdown-1{
-	display: none;
+.dropdown{
 	color: #AD3519;
 	cursor: pointer;
 	position: relative;
@@ -87,16 +74,9 @@ a{
 	margin-bottom: 15px;
 }
 
-.dropdown-menu:hover .dropdown-1{
-	display: block;
+.dropdown.white{
+	color: white;
 }
-
-.dropdown-1:hover{
-	font-size: 15px;
-}
-
-
-
 
 .category{
 	display: inline-block;
@@ -126,8 +106,6 @@ a{
 	height: 100%;
 	text-align: center;
 	background-position: center;
-	cursor: pointer;
-
 }
 
 .logo{
@@ -343,7 +321,7 @@ a{
     white-space: nowrap;
 	overflow-x: scroll;
 	overflow-y: hidden;
-    
+  	-webkit-overflow-scrolling: touch;
 }
 
 .picture-container{
@@ -405,7 +383,8 @@ a{
 	background-color: white;
 	text-align: center;
 	z-index: 26;
-    
+	overflow-y: scroll;
+  	-webkit-overflow-scrolling: touch;
 }
 
 .contact-info{
@@ -4053,6 +4032,10 @@ p{
 @media (min-width: 0px)
  and (max-width: 863px) {
 
+.dropdown-menu{
+	width: 100px;
+}
+
 .gallery-container{
    width: 525px;
 }
@@ -4391,14 +4374,14 @@ header{
 	font-size: 18px;
 }
 
-.dropdown-1{
+.dropdown-red{
 	margin-bottom: 15px;
 	margin-left: -1px;
 	margin-top: 15px;
 	font-size: 15px;
 }
 
-.dropdown-1:hover{
+.dropdown-red:hover{
 	font-size: 18px;
 }
 
@@ -4475,7 +4458,7 @@ header{
 	font-size: 10px;
 }
 
-.dropdown-1{
+.dropdown-red{
 	margin-bottom: 15px;
 	margin-left: 7px;
 	margin-top: 15px;
@@ -4487,6 +4470,7 @@ header{
     margin-top: 20px;
     font-size: 15px;
     margin-left: 25px;
+    width: 100px;
 }
 
 .dropdown-container {
@@ -4502,8 +4486,8 @@ header{
 }
 
 .category-1{
-	margin: 20px;
 	font-size: 15px;
+	margin: 20px 16px;
 }
 
 .collection-logo{
@@ -4851,7 +4835,7 @@ header{
     font-size: 12px;
 }
 
-.dropdown-1{
+.dropdown-red{
     margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 3px;
@@ -4862,6 +4846,7 @@ header{
 	margin-right: -48px;
 	margin-top: 10px;
 	font-size: 17px;
+	width: 120px;
 }
 
 .picture-container{
@@ -5007,7 +4992,7 @@ header{
     margin-left: 7px;
 }
 
-.dropdown-1{
+.dropdown-red{
     margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 7px;
@@ -5017,6 +5002,7 @@ header{
 	margin-right: -48px;
 	margin-top: 10px;
 	font-size: 15px;
+	width: 110px;
 }
 
 .picture-container{
@@ -5183,7 +5169,6 @@ header{
 .preview-title {
     left: 116px;
     top: 321px;
-}	
 }
 
 @media (min-width: 0px)
@@ -5242,7 +5227,7 @@ header{
    font-size: 9px;
 }
 
-.dropdown-1{
+.dropdown-red{
    margin-bottom: 15px;
    margin-top: 10px;
    margin-left: -4px;
