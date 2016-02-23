@@ -350,6 +350,7 @@ a{
     background-repeat: no-repeat;
     display: block;
     background-position: center;
+    -webkit-overflow-scrolling: touch;
 
 }
 
