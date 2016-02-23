@@ -23,3 +23,11 @@ $(".full-size-image-collection").click(function(){
 		$(".dropdown-container").removeClass("open");
 	}
 });
+
+$(".press-pic-container").click(function(){
+	var open = $(".dropdown-container").hasClass("open");
+
+	if(open){
+		$(".dropdown-container").removeClass("open");
+	}
+});
