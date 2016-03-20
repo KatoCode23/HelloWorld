@@ -156,27 +156,27 @@ select:hover{
 }
 
 .circle-container .circle-1{
-	background-image: url(assets/img/1.png);
+	background-image: url(/assets/img/1.png);
 }
 
 .circle-container .circle-2{
-	background-image: url(assets/img/2.png);
+	background-image: url(/assets/img/2.png);
 }
 
 .circle-container .circle-3{
-	background-image: url(assets/img/3.png);
+	background-image: url(/assets/img/3.png);
 }
 
 .circle-container .circle-4{
-	background-image: url(assets/img/4.png);
+	background-image: url(/assets/img/4.png);
 }
 
 .circle-container .circle-5{
-	background-image: url(assets/img/5.png);
+	background-image: url(/assets/img/5.png);
 }
 
 .circle-container .circle-6{
-	background-image: url(assets/img/6.png);
+	background-image: url(/assets/img/6.png);
 }
 
 .background-image-generic{
@@ -195,11 +195,11 @@ select:hover{
 }
 
 .background-image-fitness{
-	background-image: url(assets/img/backgrounds/fitness-bg.jpg);
+	background-image: url(/assets/img/backgrounds/fitness-bg.jpg);
 }
 
 .background-image-modeling{
-	background-image: url(assets/img/backgrounds/modeling-bg.jpg);
+	background-image: url(/assets/img/backgrounds/modeling-bg.jpg);
 }
 
 .splash-container{
