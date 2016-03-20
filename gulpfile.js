@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-//var sass = require('gulp-sass');
+var sass = require('gulp-sass');
 var server = require('gulp-server-livereload');
 // var args = require('yargs').argv;
 // var runSequence = require('run-sequence');
@@ -14,6 +14,11 @@ gulp.task('server', function() {
 		}));
 });
 
-gulp.task('default', function(){
-	console.log("HELLO WORLD!");
+gulp.task('sass', function(cb){
+
+	return gulp.src(['./styles.scss'])
+        .pipe(sass())
+        .pipe(gulp.dest('./'));
 });
+
+gulp.task('default', ['sass', 'server']);
