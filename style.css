@@ -422,6 +422,11 @@ a{
     font-size: 12px;
 }
 
+.videostyle{
+background-color: yellow;
+
+}
+
 
 
 .picture-image-1{
@@ -546,6 +551,10 @@ a{
 }
 .picture-image-40{
 	background-image: url(assets/img/eleenPhotos/141.jpg);
+}
+
+.video1{
+	video-background: url(assets/img/eleenPress/pressVideo1.mp4);
 }
 
 .press-image-01{
