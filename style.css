@@ -4233,6 +4233,10 @@ p{
     top: 613px;
 }
 
+.contact-logo{
+	top: 140px;
+}
+
 .bio-pic{
 	width: 180px;
 	height: 250px;
@@ -4254,7 +4258,7 @@ p{
 
 .contact-container{
     left: 275px;
-    top: 300px;
+    top: 25px;
 }
 
 .project-logo{
@@ -4363,6 +4367,11 @@ header{
 	text-align: left;
 }
 
+.logo {
+    top: 470px;
+    left: 165px;
+}    
+
 .bio-pic{
 	display: none;
 }
@@ -4373,11 +4382,11 @@ header{
 }
 
 .contact-logo{
-	top: 250px;
+	top: 140px;
 }
 
 .contact-container{
-    top: 220px;
+    top: 25px;
 }
 
 .dropdown{
@@ -4530,6 +4539,10 @@ header{
 .picture-image-20{
    background-image: url(assets/img/eleenPhotos/118.jpg);
    height: 202px;
+}
+
+.preview-title {
+    top: 282px;
 }
 }
 
@@ -4737,6 +4750,15 @@ header{
 }
 }
 
+@media (min-width: 600px)
+and (max-width: 767px){
+
+.logo {
+    top: 299px;
+    left: 165px;
+}
+}
+
 @media (min-width: 0px)
  and (max-width: 600px) {
 
@@ -4787,8 +4809,9 @@ header{
 @media (min-width: 415px)
  and (max-width: 599px) {
 
-.contact-container{
-	left: 150px;
+.contact-container {
+    left: 78px;
+    top: 100px;
 }
 
 .dropdown-menu {
@@ -4800,11 +4823,52 @@ header{
 }
 
 .preview-title {
-    left: 125px;
+    left: 180px;
     top: 395px;
 }
+
+.logo {
+    left: 31px;
+    top: 315px;
 }
-	
+.collection-logo{
+    position: fixed;
+    top: 175px;
+}
+
+.gallery-container{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 365px;
+    position: fixed;
+    top: 145px;
+    height: 426px;
+    left: -277px;
+}
+
+.picture-container {
+    display: inline-block;
+    height: 338px;
+    width: 265px;
+}
+.picture-image-20{
+   background-image: url(assets/img/eleenPhotos/118.jpg);
+   width: 516px;
+}
+.press-logo{
+	display: none;
+}
+
+.press-pic-container{
+	left: -283px;
+	margin-top: 100px;
+}
+
+.bio-container{
+    left: -388px;
+    top: 71px;	
+}
+}
 
 @media (min-width: 0px)
  and (max-width: 414px) {
@@ -4902,7 +4966,7 @@ header{
     top: -10px;
     left: -300px;
     right: 318px;
-    margin-top: 139px;
+    margin-top: 100px;
     margin-left: 333px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -4940,6 +5004,7 @@ header{
 
 .press-pic-container{
 	left: -316px;
+	margin-top: 100px;
 }
 
 .bio-container {
@@ -5053,7 +5118,7 @@ header{
     position: relative;
     top: -10px;
     left: -320px;
-    margin-top: 139px;
+    margin-top: 100px;
     margin-left: 333px;
     background-size: contain;
     background-repeat: no-repeat;
