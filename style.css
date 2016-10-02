@@ -206,9 +206,44 @@ a{
 .preview-title{
 	position: fixed;
 	left: 500px;
-    top: 276px;
+    top: 130px;
     font-size: 20px;
 }
+
+.video-link{
+	font-size: 15px;
+	position: relative;
+    display: block;
+    border: none;
+    text-align: left;
+    color: black;
+ 
+}
+
+
+.website{
+	text-align: left;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	color: black;
+	padding-right: 18px;
+}
+
+.website-box{
+	text-align: center;
+    margin-top: 25px;
+    margin-right: 57px;
+    margin-bottom: 69px;
+
+}
+
+.title-box{
+	margin-top: 25px;
+}
+
+
+
 
 .press-link{
 	position: relative;
@@ -354,6 +389,20 @@ a{
 
 }
 
+.video-container{
+	height: 400px;
+    width: 650px;
+    position: relative;
+    top: 0px;
+    margin-top: 115px;
+    margin-left: 333px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    -webkit-overflow-scrolling: touch;
+
+}
 
 .contact-container{
 	height: 315px;
@@ -737,6 +786,17 @@ a.fa{
 
 @media  (min-width: 2501px) {
 
+.video-container{
+    height: 750px;
+    width: 900px;
+    left: 650px;
+}
+
+.project-logo{
+    width: 550px;
+    top: 650px;
+}
+
 .gallery-container{
 	width: 2230px;
 }
@@ -880,6 +940,17 @@ p{
 @media  (min-width: 2401px) and 
 		(max-width: 2500px) {
 
+.video-container{
+    height: 750px;
+    width: 900px;
+    left: 650px;
+}
+
+.project-logo{
+    width: 550px;
+    top: 650px;
+}
+
 .gallery-container{
 	width: 2121px;
 }
@@ -1007,11 +1078,6 @@ p{
 	height: 300px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
 
 .preview-title{
 	left: 1010px;
@@ -1148,12 +1214,6 @@ p{
 	top: 348px;
 	width: 375px;
 	height: 300px;
-}
-
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
 }
 
 .preview-title{
@@ -1293,12 +1353,6 @@ p{
 	height: 300px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
-
 .preview-title{
 	left: 950px;
     top: 434px;
@@ -1434,12 +1488,6 @@ p{
 	top: 348px;
 	width: 375px;
 	height: 300px;
-}
-
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
 }
 
 .preview-title{
@@ -1579,12 +1627,6 @@ p{
 	height: 200px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
-
 .preview-title{
 	left: 875px;
     top: 434px;
@@ -1720,12 +1762,6 @@ p{
 	top: 348px;
 	width: 300px;
 	height: 200px;
-}
-
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
 }
 
 .preview-title{
@@ -1865,12 +1901,6 @@ p{
 	height: 200px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
-
 .preview-title{
 	left: 850px;
     top: 434px;
@@ -2006,12 +2036,6 @@ p{
 	top: 348px;
 	width: 300px;
 	height: 200px;
-}
-
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
 }
 
 .preview-title{
@@ -2151,12 +2175,6 @@ p{
 	height: 200px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
-
 .preview-title{
 	left: 810px;
     top: 434px;
@@ -2292,12 +2310,6 @@ p{
 	top: 348px;
 	width: 300px;
 	height: 200px;
-}
-
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
 }
 
 .preview-title{
@@ -2437,12 +2449,6 @@ p{
 	height: 200px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
-
 .preview-title{
 	left: 760px;
     top: 434px;
@@ -2580,12 +2586,6 @@ p{
 	height: 200px;
 }
 
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
-}
-
 .preview-title{
 	left: 760px;
     top: 434px;
@@ -2721,12 +2721,6 @@ p{
 	top: 348px;
 	width: 300px;
 	height: 200px;
-}
-
-.project-logo{
-	width: 300px;
-	height: 200px;
-	top: 348px;
 }
 
 .preview-title{
@@ -2871,10 +2865,6 @@ p{
     top: 350px;
     font-size: 45px;
 }
-
-.project-logo{
-	top: 348px;
-}
 }
 
 @media  (min-width: 1501px) and 
@@ -3011,10 +3001,6 @@ p{
 	left: 630px;
     top: 350px;
     font-size: 40px;
-}
-
-.project-logo{
-	top: 348px;
 }
 }
 
@@ -3153,10 +3139,6 @@ p{
     top: 350px;
     font-size: 40px;
 }
-
-.project-logo{
-	top: 348px;
-}
 }
 
 @media  (min-width: 1401px) and 
@@ -3164,6 +3146,17 @@ p{
 
 .gallery-container{
 	width: 1004px;
+}
+
+.video-container{
+	margin-left: 480px;
+	width: 732px;
+    margin-top: 150px;
+}
+
+.project-logo{
+	top: 400px;
+    width: 350px;
 }
 
 .logo{
@@ -3287,10 +3280,6 @@ p{
 	top: 348px;
 	width: 300px;
 	height: 200px;
-}
-
-.project-logo{
-	top: 348px;
 }
 
 .preview-title{
@@ -3434,10 +3423,6 @@ p{
     top: 350px;
     font-size: 35px;
 }
-
-.project-logo{
-	top: 348px;
-}
 }
 
 @media  (min-width: 1301px) and 
@@ -3574,15 +3559,20 @@ p{
     top: 350px;
     font-size: 35px;
 }
-
-.project-logo{
-	top: 348px;
-}
 }
 
 
 @media  (min-width: 1280px) and 
 		(max-width: 1300px ) {
+
+.video-container{
+	margin-left: 420px;
+}
+
+.project-logo{
+	top: 367px;
+    width: 300px;
+}
 
 .gallery-container{
 	width: 904px;
@@ -3714,10 +3704,6 @@ p{
 	left: 600px;
     top: 350px;
     font-size: 25px;
-}
-
-.project-logo{
-	top: 348px;
 }
 }
 
@@ -3856,10 +3842,6 @@ p{
 	left: 570px;
     top: 276px;
     font-size: 25px;
-}
-
-.project-logo{
-	top: 328px;
 }
 }	
 
@@ -4367,6 +4349,10 @@ header{
 	text-align: left;
 }
 
+.video-container{
+	width: 420px;
+}
+
 .logo {
     top: 470px;
     left: 165px;
@@ -4809,6 +4795,12 @@ and (max-width: 767px){
 @media (min-width: 415px)
  and (max-width: 599px) {
 
+.video-container{
+    width: 420px;
+    right: 330px;
+    top: -35px;
+}
+
 .contact-container {
     left: 78px;
     top: 100px;
@@ -4859,6 +4851,10 @@ and (max-width: 767px){
 	display: none;
 }
 
+.project-logo{
+	display: none;
+}
+
 .press-pic-container{
 	left: -283px;
 	margin-top: 100px;
@@ -4872,6 +4868,14 @@ and (max-width: 767px){
 
 @media (min-width: 0px)
  and (max-width: 414px) {
+
+.video-container{
+	height: 400px;
+    width: 405px;
+    margin-left: 4px;
+}
+
+
 
 .logo{
 	left: 12px;
@@ -4980,7 +4984,7 @@ and (max-width: 767px){
 }
 
 .project-logo{
-	top: 190px;
+	display: none;
 }
 
 .preview-title {
@@ -5033,6 +5037,12 @@ and (max-width: 767px){
 
 @media (min-width: 0px)
  and (max-width: 375px) {
+
+.video-container{
+    height: 400px;
+    width: 367px;
+    margin-top: 50px;
+}
 
 .logo {
     left: -10px;
@@ -5219,6 +5229,10 @@ and (max-width: 767px){
     top: 288px;
 }
 
+.video-container{
+	width: 352px;
+}
+
 .press-pic-container{
 	height: 327px;
     width: 350px;
@@ -5258,6 +5272,11 @@ and (max-width: 767px){
 
 header{
 	text-align: center;
+}
+
+.dropdown-container.open {
+    display: block;
+    left: 30px;
 }
 
 .logo {
@@ -5364,6 +5383,12 @@ header{
     background-repeat: no-repeat;
     display: block;
     background-position: center;
+}
+.video-container{
+	height: 327px;
+    width: 300px;
+    margin-left: 10px;
+    top: -51;
 }
 
 .press-link{
