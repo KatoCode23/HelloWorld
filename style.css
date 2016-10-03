@@ -38,6 +38,10 @@ a{
 	text-decoration: none;
 }
 
+.red-text{
+	color: #5d5b5b;
+}
+
 .dropdown-menu{
 	display: inline-block;
     margin-top: 22px;
@@ -333,7 +337,7 @@ a{
 	bottom: 0px;
 	width: 300px;
 	height: 300px;
-	background-image: url(assets/img/eleenPhotos/bio-pic.jpg);
+	background-image: url(assets/img/eleenPhotos/profile.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -901,7 +905,7 @@ a.fa{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 200px;
 	height: 500px;
 	width: 500px;
@@ -1055,7 +1059,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 200px;
 	height: 500px;
 	width: 500px;
@@ -1193,7 +1197,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 200px;
 	height: 475px;
 	width: 475px;
@@ -1330,7 +1334,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 200px;
 	height: 450px;
 	width: 450px;
@@ -1467,7 +1471,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 200px;
 	height: 425px;
 	width: 425px;
@@ -1604,7 +1608,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 200px;
 	height: 425px;
 	width: 425px;
@@ -1741,7 +1745,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 180px;
 	height: 425px;
 	width: 425px;
@@ -1878,7 +1882,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 170px;
 	height: 420px;
 	width: 420px;
@@ -2015,7 +2019,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 140px;
 	height: 415px;
 	width: 415px;
@@ -2152,7 +2156,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 150px;
 	height: 410px;
 	width: 410px;
@@ -2289,7 +2293,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 140px;
 	height: 405px;
 	width: 405px;
@@ -2426,7 +2430,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 130px;
 	height: 400px;
 	width: 400px;
@@ -2563,7 +2567,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 120px;
 	height: 390px;
 	width: 390px;
@@ -2700,7 +2704,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 110px;
 	height: 385px;
 	width: 385px;
@@ -2837,7 +2841,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 100px;
 	height: 375px;
 	width: 375px;
@@ -2975,7 +2979,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 90px;
 	height: 365px;
 	width: 365px;
@@ -3112,7 +3116,7 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
+	top: 276px;
 	right: 80px;
 	height: 355px;
 	width: 355px;
@@ -3259,7 +3263,7 @@ p{
 }
 
 .bio-pic{
-	top: 230px;
+	top: 270px;
 	right: 70px;
 	height: 350px;
 	width: 350px;
@@ -3532,7 +3536,6 @@ p{
 }
 
 .bio-pic{
-	top: 220px;
 	right: 20px;
 	height: 335px;
 	width: 335px;
@@ -3678,7 +3681,7 @@ p{
 }
 
 .bio-pic{
-	top: 210px;
+	top: 255px;
 	height: 325px;
 	width: 325px;
 }
@@ -3816,7 +3819,6 @@ p{
 
  .bio-pic{
  	right: -35px;
-    top: 200px;
     height: 325px;
 	width: 325px;
  }
@@ -3858,7 +3860,7 @@ p{
 }
 
 .bio-pic{
-	top: 191px;
+	top: 214px;
 }
 
 .contact-container{
@@ -4888,9 +4890,7 @@ and (max-width: 767px){
 }
 
 .bio-pic{
-	height: 125px;
-	width:	245px;
-
+	display: none;
 }
 
 .gallery-container{
