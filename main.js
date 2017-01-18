@@ -16,13 +16,13 @@ openImage= function(id){
 	$('.full-size-image').css('display', 'block');
 	$('.gallery-button').addClass('turned-on');
 
-	if(currentImage === 1){
+	if(currentImage <= 1){
 		$('#prev-button').css('display', 'none');
 	}else{
 		$('#prev-button').css('display', 'inline-block');
 	}
 
-	if(currentImage === numberOfImages){
+	if(currentImage >= numberOfImages){
 		$('#next-button').css('display', 'none');
 	}else{
 		$('#next-button').css('display', 'inline-block');
@@ -70,3 +70,6 @@ $('#prev-button').click(function(){
 	currentImage = parseInt(currentImage) - 1;
 	openImage(currentImage);
 })
+
+
+
