@@ -32,6 +32,13 @@ header a:hover{
 	color: #00F4FF;
 	text-align: center;
 }
+
+.main-content{
+	text-align: center;
+
+}
+
+
 .gallery-button{
 	cursor: pointer;
 	background: black;
@@ -368,6 +375,31 @@ section .fa{
 	display: block;
 }
 
+.video-container video{
+	border: solid black 3px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 500px;
+	height: 500px;
+}
+
+.video-container h1{
+	margin-top: 35px;
+    padding: 20px;
+    color: #00F4FF;
+}
+
+#mc_embed_signup{
+	background: black; 
+	clear: left; 
+	font: 14px Helvetica,Arial,sans-serif; 
+	width: 100%;
+}
+
+.subscribe-label{
+	color: #00F4FF;
+}
+
 @media (min-width: 0px)
  and (max-width: 680px) {
 	.background-image-generic{
@@ -383,4 +415,14 @@ section .fa{
 	.circle .circle-label{
 		font-size: 12px;
 	}
+
+	.video-container video{
+	width: 300px;
+	height: 300px;
+    }
+
+    .category{
+    	font-size: 11px;
+    }
+
 }
