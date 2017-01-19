@@ -400,6 +400,11 @@ section .fa{
 	color: #00F4FF;
 }
 
+.video-container li{
+	padding: 5px;
+	margin: 25px;
+}
+
 @media (min-width: 0px)
  and (max-width: 680px) {
 	.background-image-generic{
