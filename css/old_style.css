@@ -36,7 +36,6 @@ header a:hover{
 .main-content{
 	text-align: center;
 	color: #00F4FF;
-
 }
 
 
@@ -406,7 +405,7 @@ section .fa{
 	color: #00F4FF;
 }
 
-label{
+label .subscribe-label{
 color: #00F4FF;	
 }
 
