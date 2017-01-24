@@ -407,6 +407,10 @@ section .fa{
 	color: #00F4FF;
 }
 
+label{
+color: #00F4FF;	
+}
+
 .video-container li{
 	padding: 5px;
 	margin: 25px;
