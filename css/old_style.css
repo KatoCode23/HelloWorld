@@ -382,7 +382,6 @@ section .fa{
 }
 
 .video-container video{
-	border: solid black 3px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
