@@ -2,37 +2,3 @@ body {
   color: #00F4FF; }
 
 
-.video-container{
-	justify-content: center;
-	-webkit-justify-content: center;
-}
-
-.video-container video{
-	background-repeat: no-repeat;
-	background-size: contain;
-	width: 100%;
-	margin: 0 auto;
-	
-}
-
-.video-container h1{
-	margin-top: 35px;
-    padding: 20px;
-    color: #00F4FF;
-}
-
-#mc_embed_signup{
-	background: black; 
-	clear: left; 
-	font: 14px Helvetica,Arial,sans-serif; 
-	width: 100%;
-}
-
-.subscribe-label{
-	color: #00F4FF;
-}
-
-.video-container li{
-	padding: 5px;
-	margin: 25px;
-}

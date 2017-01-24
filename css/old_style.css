@@ -373,15 +373,10 @@ section .fa{
 	display: block;
 }
 
-.video-container{
-	justify-content: center;
-	-webkit-justify-content: center;
-}
-
 .video-container video{
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 100%;
+	width: 75%;
 	margin: 0 auto;
 	
 }
