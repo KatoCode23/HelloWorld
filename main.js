@@ -1,4 +1,4 @@
-var numberOfImages= 22;
+var numberOfImages= 31;
 var currentImage= null;
 
 for (var i=1; i <= numberOfImages; i++){
@@ -47,7 +47,7 @@ $('.close-button').click(function(event){
 $('.bio-button').click(function(){
 
 	if($('.bio-text').hasClass("hide")){
-		
+
 		$('.bio-text').removeClass("hide");
 		$('.bio-text').addClass('show');
 
@@ -70,6 +70,3 @@ $('#prev-button').click(function(){
 	currentImage = parseInt(currentImage) - 1;
 	openImage(currentImage);
 })
-
-
-
