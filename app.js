@@ -14,6 +14,10 @@ $scope.videos = [
 		{
 			name: 'Fitness',
 			video: 'videos/KatoFitnessBW.mov'
+		},
+		{
+			name: 'Voice Over',
+			video: 'videos/Promo.mp4'
 		}
 
 ];
